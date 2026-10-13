@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>{{ title }}</title>
+  <link>{{ link }}</link>
+  <atom:link href="{{ link }}feed.xml" rel="self" type="application/rss+xml"/>
+  <description>{{ description }}</description>
+  <language>en</language>
+  <lastBuildDate>{{ last_build }}</lastBuildDate>
+  <generator>economist-digest build.py</generator>
+{{ items }}
+</channel>
+</rss>

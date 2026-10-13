@@ -1,0 +1,14 @@
+# 构建产物
+site/
+dist/
+
+# 本地临时文件
+__pycache__/
+*.py[cod]
+.DS_Store
+*.log
+
+# 环境变量
+.env
+
+# 注意：docs/ 不要忽略 —— README 里引用了这些效果图，忽略会导致断图

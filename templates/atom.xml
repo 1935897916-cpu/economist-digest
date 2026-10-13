@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ title }}</title>
+  <subtitle>{{ subtitle }}</subtitle>
+  <link href="{{ base }}"/>
+  <link href="{{ base }}atom.xml" rel="self" type="application/atom+xml"/>
+  <id>{{ base }}</id>
+  <updated>{{ updated }}</updated>
+  <generator>economist-digest build.py</generator>
+{{ entries }}
+</feed>

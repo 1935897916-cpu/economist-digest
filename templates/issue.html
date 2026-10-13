@@ -1,0 +1,29 @@
+<header class="topbar">
+  <a class="brand" href="{{ index_href }}">← 往期</a>
+  <span class="spacer"></span>
+  {{ theme_bar }}
+</header>
+
+<main class="wrap-wide">
+  <div class="issue-head">
+    <p class="eyebrow">{{ eyebrow }}</p>
+    <h1>{{ heading }}</h1>
+    <p class="meta">{{ meta }}</p>
+    {{ cover }}
+  </div>
+
+  <div class="issue-body">
+    <details class="toc" open>
+      <summary>目录</summary>
+      <ol>
+        {{ toc }}
+      </ol>
+    </details>
+
+    <div class="prose">
+      {{ prose }}
+    </div>
+  </div>
+</main>
+
+{{ footer }}

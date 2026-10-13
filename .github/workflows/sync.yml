@@ -1,0 +1,71 @@
+name: Sync Upstream
+
+# 定时检查上游是否有新一期，有则生成 content/ 并提交。
+# 提交后自动触发 pages.yml 完成构建与发布 —— 全程无需人工干预。
+on:
+  schedule:
+    # 每 6 小时一次（UTC）。《经济学人》每周五晚更新，
+    # 6 小时的间隔足以在更新后半天内自动收录。
+    # 注意：GitHub 定时任务在高峰期可能延迟 10-30 分钟。
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      max_issues:
+        description: "本次最多抓取几期"
+        required: false
+        default: "1"
+
+permissions:
+  contents: write    # 需要提交 content/ 下的新文件
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 检查上游新内容
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MAX_ISSUES: ${{ github.event.inputs.max_issues || '1' }}
+          # 保留原文插图（《经济学人》的数据图表是内容的一部分）
+          KEEP_IMAGES: "1"
+        id: fetch
+        run: |
+          set +e
+          python tools/fetch_upstream.py
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          if [ "$code" -eq 0 ]; then
+            echo "has_new=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_new=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 提交新内容
+        if: steps.fetch.outputs.has_new == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/
+          if git diff --staged --quiet; then
+            echo "没有文件变化"
+          else
+            git commit -m "content: 新增《经济学人》期号 $(date -u +%Y-%m-%d)"
+            git push
+            echo "已提交并推送，pages.yml 将被自动触发"
+          fi
+
+      - name: 无新内容
+        if: steps.fetch.outputs.has_new != 'true'
+        run: echo "上游暂无新内容，本次不提交"

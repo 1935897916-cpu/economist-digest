@@ -1,0 +1,18 @@
+<header class="topbar">
+  <span class="brand">The Economist<span class="dot"> · </span>Digest</span>
+  <span class="spacer"></span>
+  {{ theme_bar }}
+</header>
+
+<main class="wrap">
+  <div class="home-head">
+    <p class="eyebrow">Weekly Digest</p>
+    <h1>{{ heading }}</h1>
+    <p>{{ intro }}　共 {{ count }} 期，最新一期在最上方。</p>
+  </div>
+  <ul class="issue-list">
+    {{ issues }}
+  </ul>
+</main>
+
+{{ footer }}

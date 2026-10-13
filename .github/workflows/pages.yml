@@ -1,0 +1,86 @@
+name: Build and Deploy Pages
+
+# 触发方式：
+#   · push 到 main 且内容/模板/脚本有变化（最常见：sync 工作流提交新一期后）
+#   · 打 tag：git tag v2026.10.17 && git push origin v2026.10.17
+#   · 发布 Release
+#   · 手动触发（Actions 页面 Run workflow）
+on:
+  push:
+    branches: [main]
+    paths:
+      - "content/**"
+      - "tools/**"
+      - "templates/**"
+      - "assets/**"
+      - ".github/workflows/pages.yml"
+    tags: ["v*"]
+  workflow_dispatch:
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 同一时间只保留一个部署，避免并发发布互相覆盖
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt || true
+
+      - name: 生成站点
+        env:
+          # RSS/Atom 中的链接与图片必须是绝对地址，否则阅读器无法加载。
+          #
+          # 这里刻意不用 github.event.repository.name —— 它在 schedule 与
+          # workflow_dispatch 事件下可能为 null，会让链接退化成相对路径
+          # 导致订阅源静默失效。默认值写死仓库地址，vars.SITE_URL 优先，
+          # 换自定义域名时只需在仓库 Variables 里改，不用动代码。
+          SITE_URL: ${{ vars.SITE_URL || 'https://1935897916-cpu.github.io/economist-digest/' }}
+        run: |
+          echo "站点 URL: $SITE_URL"
+          python tools/build.py --out site --base-url "$SITE_URL"
+
+      - name: 校验产物
+        run: |
+          test -f site/index.html || { echo "缺少 index.html"; exit 1; }
+          test -f site/feed.xml || { echo "缺少 feed.xml"; exit 1; }
+          test -f site/atom.xml || { echo "缺少 atom.xml"; exit 1; }
+          echo "期号数: $(python -c "import json;print(json.load(open('site/issues.json'))['count'])")"
+
+      - name: 配置 Pages
+        uses: actions/configure-pages@v5
+
+      - name: 上传产物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
