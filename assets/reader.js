@@ -97,14 +97,46 @@
     lastId = id;
   }
 
+  /* ---------- 回到顶部 ---------- */
+  var toTop = document.getElementById("to-top");
+  var TO_TOP_AT = 600;          // 滚动超过这个距离才出现
+  var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+
+  if (toTop) {
+    toTop.addEventListener("click", function () {
+      try {
+        window.scrollTo({
+          top: 0,
+          behavior: reduceMotion.matches ? "auto" : "smooth"
+        });
+      } catch (e) {
+        window.scrollTo(0, 0);   // 老浏览器不支持 options
+      }
+      // 无障碍：按钮滚回顶部后会隐藏，把焦点交给期号标题，
+      // 否则键盘用户的焦点会落在被隐藏的元素上。
+      var h1 = document.querySelector(".issue-head h1");
+      if (h1) {
+        h1.setAttribute("tabindex", "-1");
+        h1.focus({ preventScroll: true });
+      }
+    });
+  }
+
   function onScroll() {
     if (ticking) return;
     ticking = true;
     window.requestAnimationFrame(function () {
       var doc = document.documentElement;
+      var y = window.scrollY || doc.scrollTop || 0;
       var max = doc.scrollHeight - doc.clientHeight;
       var pct = max > 0 ? (doc.scrollTop / max) * 100 : 0;
       if (progress) progress.style.width = pct.toFixed(2) + "%";
+
+      // 回顶按钮显隐
+      if (toTop) {
+        if (y > TO_TOP_AT) toTop.classList.add("show");
+        else toTop.classList.remove("show");
+      }
 
       var offset = 100;
       var current = null;
