@@ -8,12 +8,14 @@
 <link rel="canonical" href="{{ canonical }}">
 <link rel="alternate" type="application/rss+xml" title="{{ title }}" href="{{ feed_href }}">
 <link rel="alternate" type="application/atom+xml" title="{{ title }}" href="{{ atom_href }}">
-<link rel="stylesheet" href="{{ assets }}/style.css">
+<!-- 资源带内容指纹 v=，样式或脚本改动后浏览器会立即取新版本，
+     不会因缓存停留在旧页面（GitHub Pages 的 CSS/JS 会缓存 10 分钟） -->
+<link rel="stylesheet" href="{{ assets }}/style.css?v={{ asset_ver }}">
 {{ extra_head }}
 </head>
 <body>
 <div id="progress"></div>
 {{ body }}
-<script src="{{ assets }}/reader.js" defer></script>
+<script src="{{ assets }}/reader.js?v={{ asset_ver }}" defer></script>
 </body>
 </html>

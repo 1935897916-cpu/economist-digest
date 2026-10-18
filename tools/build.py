@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import hashlib
 import html
 import re
 import shutil
@@ -44,6 +45,21 @@ LANG = "en"
 # （NetNewsWire 5 MB、FreshRSS 10 MB、Inoreader 15 MB）会加载失败。
 # 5 期约 2.1 MB，安全。旧期仍可在网页版翻阅，只是不进订阅源。
 FEED_MAX_ISSUES = 5
+
+
+def asset_version() -> str:
+    """样式与脚本的内容指纹，拼到资源 URL 的 ?v= 上。
+
+    GitHub Pages 给 CSS/JS 的缓存是 max-age=600，文件名又固定，
+    所以每次改动后浏览器都可能继续用旧文件（表现为「改了但没生效」）。
+    用内容哈希做查询参数即可让改动立即生效。
+    """
+    digest = hashlib.sha256()
+    for name in ("style.css", "reader.js"):
+        path = ASSETS_DIR / name
+        if path.is_file():
+            digest.update(path.read_bytes())
+    return digest.hexdigest()[:8]
 
 
 # ---------------- 数据结构 ----------------
@@ -291,6 +307,7 @@ def build_index_page(issues: list[Issue], tpl: dict[str, str],
         "lang": LANG,
         "atom_href": "atom.xml",
         "extra_head": "",
+        "asset_ver": asset_version(),
     })
 
 
@@ -357,6 +374,7 @@ def build_issue_page(iss: Issue, tpl: dict[str, str], base_url: str) -> str:
         "lang": LANG,
         "atom_href": root + "atom.xml",
         "extra_head": "",
+        "asset_ver": asset_version(),
     })
 
 

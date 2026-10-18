@@ -17,6 +17,10 @@ on:
 
 permissions:
   contents: write    # 需要提交 content/ 下的新文件
+  # 关键：用 GITHUB_TOKEN 推送的提交**不会**触发其他工作流
+  # （GitHub 防止递归的机制），所以 pages.yml 不会自动跑。
+  # 这里显式 dispatch 它 —— workflow_dispatch 是官方列明的例外，可以触发。
+  actions: write
 
 concurrency:
   group: sync
@@ -54,17 +58,30 @@ jobs:
 
       - name: 提交新内容
         if: steps.fetch.outputs.has_new == 'true'
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add content/
           if git diff --staged --quiet; then
             echo "没有文件变化"
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "content: 新增《经济学人》期号 $(date -u +%Y-%m-%d)"
             git push
-            echo "已提交并推送，pages.yml 将被自动触发"
+            echo "pushed=true" >> "$GITHUB_OUTPUT"
+            echo "已提交并推送"
           fi
+
+      # GITHUB_TOKEN 推送不会触发 pages.yml（GitHub 防递归机制），
+      # 必须显式 dispatch，否则内容更新了但网站一直不重新构建。
+      - name: 触发生成与发布
+        if: steps.commit.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh workflow run pages.yml --ref main
+          echo "已触发 pages.yml，稍后会自动构建并发布"
 
       - name: 无新内容
         if: steps.fetch.outputs.has_new != 'true'
