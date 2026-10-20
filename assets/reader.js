@@ -79,21 +79,69 @@
   var lastId = null;
   var ticking = false;
 
+  /* 目录的滚动容器在两种布局下不是同一个元素：
+     移动端是 .toc ol（有 max-height），侧栏布局是 .toc 本身。
+     以前写死滚 ol，侧栏下 ol 没有溢出，等于什么都没滚，
+     高亮项就跑出可视区了。这里改成找真正能滚的祖先。 */
+  function scrollHost(el) {
+    var n = el.parentElement;
+    while (n && n !== document.body && n !== document.documentElement) {
+      var st = window.getComputedStyle(n);
+      if ((st.overflowY === "auto" || st.overflowY === "scroll") &&
+          n.scrollHeight > n.clientHeight + 1) {
+        return n;
+      }
+      n = n.parentElement;
+    }
+    return null;
+  }
+
+  // 用户正在手动翻目录时不要自动跳，否则会跟手指打架
+  var tocTouchedAt = 0;
+  var tocBox = document.querySelector(".toc");
+  if (tocBox) {
+    ["pointerdown", "touchstart", "wheel"].forEach(function (ev) {
+      tocBox.addEventListener(ev, function () { tocTouchedAt = Date.now(); },
+                             { passive: true });
+    });
+  }
+
+  function revealInToc(link) {
+    if (Date.now() - tocTouchedAt < 1800) return;   // 刚手动操作过，让用户自己滚
+    var host = scrollHost(link);
+    if (!host) return;
+    var lr = link.getBoundingClientRect();
+    var hr = host.getBoundingClientRect();
+    var top = lr.top - hr.top + host.scrollTop;
+    var visible = lr.top >= hr.top + 4 && lr.bottom <= hr.bottom - 4;
+    if (!visible) {
+      host.scrollTop = top - host.clientHeight / 2 + lr.height / 2;
+    }
+  }
+
+  /* 高亮当前文章所属的栏目，让侧栏能看出读到哪个板块 */
+  var lastSec = null;
+  function setSection(link) {
+    var sec = null;
+    if (link) {
+      var box = link.closest(".toc-sec");
+      if (box) sec = box.querySelector(".toc-head");
+    }
+    if (sec === lastSec) return;
+    if (lastSec) lastSec.classList.remove("sec-active");
+    if (sec) sec.classList.add("sec-active");
+    lastSec = sec;
+  }
+
   function setActive(id) {
     if (id === lastId) return;
     if (lastId && links[lastId]) links[lastId].classList.remove("active");
-    if (id && links[id]) {
-      links[id].classList.add("active");
-      // 目录内部也滚动到可见处（移动端长目录时有用）
-      var a = links[id];
-      var list = a.closest("ol");
-      if (list && list.scrollHeight > list.clientHeight) {
-        var top = a.offsetTop;
-        if (top < list.scrollTop || top > list.scrollTop + list.clientHeight - 40) {
-          list.scrollTop = top - list.clientHeight / 2;
-        }
-      }
+    var link = id ? links[id] : null;
+    if (link) {
+      link.classList.add("active");
+      revealInToc(link);
     }
+    setSection(link);
     lastId = id;
   }
 
@@ -122,6 +170,29 @@
     });
   }
 
+  /* 顶栏是 sticky，高度随字号与是否换行变化；
+     判定线必须在运行时实测，不能写死。 */
+  var topbar = document.querySelector(".topbar");
+  var barH = 52;
+  var anchorMargin = 0;
+  function measureBar() {
+    if (topbar) barH = Math.round(topbar.getBoundingClientRect().height);
+    // 标题上的 scroll-margin-top 决定了点进来后标题停在哪
+    var probe = heads[0];
+    if (probe) {
+      anchorMargin = parseFloat(
+        window.getComputedStyle(probe).scrollMarginTop) || 0;
+    }
+  }
+  measureBar();
+
+  function topOffset() {
+    // 判定线必须**略大于**锚点补偿量。
+    // 两者相等时，刚点进来的标题会被判在线上方 1px，高亮就停在前一条，
+    // 看起来像「点了 A 却高亮 B」。
+    return Math.max(barH + 14, anchorMargin + 6);
+  }
+
   function onScroll() {
     if (ticking) return;
     ticking = true;
@@ -138,7 +209,10 @@
         else toTop.classList.remove("show");
       }
 
-      var offset = 100;
+      // 判定线取顶栏实际高度 + 少量余量。
+      // 写死 100px 时，窗口变窄/字号变大顶栏会变高，
+      // 判定线就落进顶栏里，高亮提前跳到下一篇 —— 表现为「目录不准」。
+      var offset = topOffset();
       var current = null;
       for (var k = 0; k < heads.length; k++) {
         if (heads[k].getBoundingClientRect().top <= offset) {
@@ -152,6 +226,11 @@
     });
   }
   window.addEventListener("scroll", onScroll, { passive: true });
+  // 旋转屏幕 / 改窗口大小后顶栏高度会变，重新测量并刷新高亮
+  window.addEventListener("resize", function () {
+    measureBar();
+    onScroll();
+  }, { passive: true });
   onScroll();
 
   /* ---------- 长文滚动定位：记住并恢复阅读位置 ---------- */

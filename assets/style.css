@@ -372,7 +372,10 @@ a:hover { text-decoration: underline; }
   list-style: none;
   margin: 0;
   padding: 0 .55rem .7rem;
+  /* dvh 在后：Safari 横屏时浏览器工具栏会占掉 vh 的一部分，
+     只用 vh 会把目录底部顶到屏幕外，滚不到最后一篇 */
   max-height: 58vh;
+  max-height: 58dvh;
   overflow-y: auto;
   overscroll-behavior: contain;
 }
@@ -412,7 +415,32 @@ a:hover { text-decoration: underline; }
   font-weight: 600;
 }
 
-/* 桌面：目录与正文并排 */
+/* 当前文章所属的栏目：整块变深 + 左侧竖线，
+   让侧栏一眼能看出「现在读到哪个板块」，而不是只有某一篇高亮 */
+.toc a.toc-head.sec-active {
+  color: var(--text);
+  border-left-color: var(--accent);
+}
+.toc a.toc-head.sec-active::after {
+  content: "";
+  flex: 0 0 auto;
+  width: .35rem;
+  height: .35rem;
+  margin-left: auto;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.toc a.toc-head { display: flex; align-items: center; gap: .4rem; }
+
+/* 目录滚动条：细一点，别在侧栏里占掉太多文字宽度 */
+.toc { scrollbar-width: thin; }
+.toc::-webkit-scrollbar { width: 6px; }
+.toc::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 3px;
+}
+
+/* 桌面 / 平板横屏：目录常驻侧栏 */
 @media (min-width: 1000px) {
   .issue-body {
     display: grid;
@@ -422,12 +450,30 @@ a:hover { text-decoration: underline; }
   }
   .toc {
     position: sticky;
-    top: 3.5rem;
-    max-height: calc(100vh - 4.6rem);
+    top: 3.75rem;
+    max-height: calc(100vh - 4.75rem);
+    max-height: calc(100dvh - 4.75rem);
     overflow-y: auto;
     margin-bottom: 0;
   }
-  .toc ol { max-height: none; }
+  /* 侧栏里只允许 .toc 一个滚动容器。
+     ol 若继续保留 overflow-y:auto + overscroll-behavior:contain，
+     横屏下它自身没有溢出（max-height:none），却仍会把手势截断、
+     不再传给外层 .toc —— 表现出来就是「目录划不动」。
+     这里让 ol 彻底退化为普通块，滚动全交给 .toc。 */
+  .toc ol {
+    max-height: none;
+    overflow: visible;
+    overscroll-behavior: auto;
+  }
+  /* 「目录」标题吸顶，滚动时始终可见，也提示这块可滚 */
+  .toc > summary {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: var(--bg-soft);
+    border-bottom: 1px solid var(--border);
+  }
 }
 
 /* ---------- 正文排版 ---------- */
