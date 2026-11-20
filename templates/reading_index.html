@@ -1,0 +1,26 @@
+<header class="topbar">
+  <a class="brand" href="{{ issue_href }}">← 本期原版</a>
+  <span class="spacer"></span>
+  {{ theme_bar }}
+</header>
+
+<main class="reader-wrap">
+  <div class="issue-head r-head">
+    <p class="eyebrow">英中对照精读</p>
+    <h1>{{ heading }}</h1>
+    <p class="meta">共 {{ count }} 篇</p>
+  </div>
+
+  <ul class="reading-list">
+    {{ items }}
+  </ul>
+</main>
+
+{{ footer }}
+
+<button id="to-top" class="to-top" type="button" aria-label="回到顶部" title="回到顶部">
+  <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
+    <path d="M12 19V6M12 6l-6 6M12 6l6 6" fill="none" stroke="currentColor"
+          stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+</button>

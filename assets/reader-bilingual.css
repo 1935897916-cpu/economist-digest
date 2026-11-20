@@ -1,0 +1,191 @@
+/* 精读页专用样式（英中对照）。
+   只服务 site/reading/ 下的页面，不影响现有 19 期页面。
+   颜色全部复用 style.css 的主题变量，深色/羊皮纸自动适配。 */
+
+.r-brand-tag {
+  font-size: .8rem;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  padding: 0 .4em;
+  margin-left: .6rem;
+}
+
+.reader-wrap {
+  max-width: 76rem;
+  margin: 0 auto;
+  padding: 1.2rem 1.4rem 4rem;
+}
+
+.r-head { margin-bottom: 1.6rem; }
+.r-head h1 { line-height: 1.25; }
+.r-title-zh {
+  color: var(--text-soft);
+  font-size: 1.05rem;
+  margin: .4rem 0 .8rem;
+}
+.r-head .meta a {
+  color: var(--accent);
+  text-decoration: none;
+  margin-right: 1.2rem;
+}
+
+/* ---------- 正文：段落对照 ---------- */
+
+.reader-body { font-size: 1.02rem; line-height: 1.75; }
+
+.reader-body .en p { margin: 0 0 .8em; }
+.reader-body .zh { color: var(--text-soft); }
+
+/* 默认（竖屏/窄屏，仅保底）：上下排列 */
+.para {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.para .zh { margin-top: .7em; }
+
+.reader-body .r-hr { border: none; border-top: 1px solid var(--border-strong); margin: 1.4rem 0; }
+
+/* 图片：跨整幅宽度 */
+.reader-body figure.fig {
+  margin: 1.4rem 0;
+}
+.reader-body figure.fig img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+.reader-body figure.fig figcaption {
+  color: var(--text-faint);
+  font-size: .85rem;
+  padding-top: .5rem;
+  text-align: center;
+}
+
+/* 生词上标 */
+sup.wg {
+  color: var(--accent);
+  font-weight: 700;
+  font-size: .72em;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 .12em;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+sup.wg:hover, sup.wg:focus-visible { text-decoration: underline; }
+
+/* ---------- 平板横屏（主场景）：左 58% 英文 / 右 42% 中文 ---------- */
+@media (min-width: 1000px) {
+  .para {
+    display: grid;
+    grid-template-columns: 58fr 42fr;
+    gap: 2.2rem;
+    align-items: start;
+    padding: 1.1rem 0;
+  }
+  .para .zh { margin-top: 0; font-size: .95em; }
+  .para .en { min-width: 0; }
+  .para .zh { min-width: 0; }
+
+  /* 中文列用细左边线与英文列分隔，更贴杂志排版 */
+  .para .zh { border-left: 2px solid var(--border); padding-left: 1.6rem; }
+}
+
+/* ---------- 词条弹卡 ---------- */
+#wg-card {
+  position: fixed;
+  z-index: 90;
+  max-width: 21rem;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border-strong);
+  border-radius: 10px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, .18);
+  padding: .8rem 1rem;
+  font-size: .92rem;
+  line-height: 1.55;
+}
+#wg-card[hidden] { display: none; }
+#wg-card .wg-term b { font-size: 1.05rem; }
+#wg-card .wg-ph { color: var(--text-faint); margin-left: .5em; }
+#wg-card .wg-line { margin-top: .3rem; }
+#wg-card .wg-pos {
+  color: var(--accent);
+  font-style: italic;
+  margin-right: .5em;
+}
+#wg-card .wg-note {
+  margin-top: .45rem;
+  padding-top: .45rem;
+  border-top: 1px dashed var(--border);
+  color: var(--text-soft);
+  font-size: .88rem;
+}
+
+/* ---------- 文末生词表 ---------- */
+.vocab {
+  margin: 2rem auto 0;
+  max-width: 76rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg-soft);
+}
+.vocab summary {
+  cursor: pointer;
+  padding: .9rem 1.2rem;
+  font-weight: 700;
+  color: var(--text);
+}
+.vocab[open] summary { border-bottom: 1px solid var(--border); }
+
+.vocab-grid {
+  padding: 1rem 1.2rem;
+  columns: 2;
+  column-gap: 2.4rem;
+}
+.v-item {
+  break-inside: avoid;
+  margin-bottom: .9rem;
+  font-size: .93rem;
+  line-height: 1.55;
+}
+.v-n { color: var(--accent); font-weight: 700; margin-right: .4em; }
+.v-term { font-weight: 700; }
+.v-ph { color: var(--text-faint); margin: 0 .4em; font-size: .88em; }
+.v-pos { color: var(--text-faint); font-style: italic; margin-right: .4em; }
+.v-sense { color: var(--text); }
+.v-note {
+  margin-top: .25rem;
+  color: var(--text-soft);
+  font-size: .88em;
+}
+
+/* 竖屏/窄屏：词表单栏 */
+@media (max-width: 899px) {
+  .vocab-grid { columns: 1; }
+}
+
+/* ---------- 精读目录页 ---------- */
+.reading-list { list-style: none; margin: 0; padding: 0; }
+.reading-list li { border-bottom: 1px solid var(--border); }
+.reading-list a {
+  display: block;
+  padding: 1rem .4rem;
+  text-decoration: none;
+  color: var(--text);
+}
+.reading-list .ttl { display: block; font-weight: 700; font-size: 1.05rem; }
+.reading-list .en-ttl {
+  display: block;
+  color: var(--text-soft);
+  font-size: .92rem;
+  margin-top: .15rem;
+}
+.reading-list .meta {
+  display: block;
+  color: var(--text-faint);
+  font-size: .85rem;
+  margin-top: .3rem;
+}
+.reading-list a:active { background: var(--accent-soft); }

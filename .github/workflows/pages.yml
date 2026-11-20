@@ -13,6 +13,7 @@ on:
       - "tools/**"
       - "templates/**"
       - "assets/**"
+      - "annotations/**"
       - ".github/workflows/pages.yml"
     tags: ["v*"]
   workflow_dispatch:
@@ -57,13 +58,17 @@ jobs:
           SITE_URL: ${{ vars.SITE_URL || 'https://1935897916-cpu.github.io/economist-digest/' }}
         run: |
           echo "站点 URL: $SITE_URL"
+          # 顺序不可颠倒：build.py 会清空整个 site/，
+          # 必须先跑它生成全部期号页面与 assets，再增量生成精读页。
           python tools/build.py --out site --base-url "$SITE_URL"
+          python tools/build_reader.py --out site --base-url "$SITE_URL"
 
       - name: 校验产物
         run: |
           test -f site/index.html || { echo "缺少 index.html"; exit 1; }
           test -f site/feed.xml || { echo "缺少 feed.xml"; exit 1; }
           test -f site/atom.xml || { echo "缺少 atom.xml"; exit 1; }
+          test -f site/reading/2026-11-21/index.html || { echo "缺少精读目录"; exit 1; }
           echo "期号数: $(python -c "import json;print(json.load(open('site/issues.json'))['count'])")"
 
       - name: 配置 Pages
