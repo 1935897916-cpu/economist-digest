@@ -1,0 +1,109 @@
+{
+  "issue": "2026-11-21",
+  "section": "Science & technology",
+  "article_slug": "spacex-achieves-another-historic-first",
+  "article_title_zh": "SpaceX 再创历史性壮举",
+  "paragraphs": [
+    {
+      "n": 1,
+      "zh": "它接住了「星舰」火箭的上面级",
+      "gloss": []
+    },
+    {
+      "n": 2,
+      "zh": "这不是 SpaceX 第一次从半空中「接」回火箭，但这是第一次接住上半截。11 月 14 日，在巨型「星舰」（Starship）火箭的第 15 次试飞中，Elon Musk 的这家火箭与 AI 公司首次成功让火箭上面级安全返回发射塔。这让它离建造史上第一枚完全可复用火箭的长期目标只差一步——那将大幅削减把东西送入轨道的成本。",
+      "gloss": [1, 2]
+    },
+    {
+      "n": 3,
+      "zh": "这次飞行并非全胜。SpaceX 原本想完成「双响」：发射几分钟后接住助推器，几小时后再接住上面级。结果助推器燃料耗尽，偏离航线飞向得州发射场附近的海面，随后自毁。但上面级表现堪称完美：先做出标志性的「腹拍」机动，再小心翼翼地飞回发射塔，被一对机械臂稳稳接住。",
+      "gloss": [3, 4, 5]
+    },
+    {
+      "n": 4,
+      "zh": "回收上面级远比回收助推器困难——它必须挺过再入大气层的灼热考验，而助推器并不会飞离发射场太远。SpaceX 的工程师将格外仔细地检查「星舰」的隔热罩：它由数千块耐热瓦片构成，此前几次飞行中已被证明十分娇气，有的瓦片在再入时脱落，有的则让炽热的等离子体从缝隙钻进来。",
+      "gloss": [6, 7]
+    },
+    {
+      "n": 5,
+      "zh": "造出一副能可靠地一次次穿越大气层的耐用隔热罩，对 SpaceX 快速复用单枚「星舰」的目标至关重要。工程师手头已有些数据：7 月 24 日的一次试飞中，上面级出乎意料地在计划中的海面溅落后幸存。但一枚完好无损、干燥的上面级回到 SpaceX 本部——而不是落在大洋深处、在海里泡上几个星期——其价值仍然无可替代。",
+      "gloss": [8]
+    },
+    {
+      "n": 6,
+      "zh": "「星舰」的巨大运力，对 SpaceX 扩展「星链」卫星宽带系统、并最终把 AI 数据中心送入轨道的计划至关重要。公司希望火箭完全成熟后，每次能将 200 吨载荷送入近地轨道；Musk 则指望每次发射的成本低于 1,000 万美元。就算最后远达不到这个目标，他们仍将拥有一种远比「猎鹰 9 号」便宜且强大的火箭——后者被认为每次飞行耗资 1,500 万至 2,000 万美元（确切数字取决于你问哪位分析师），运力 25 吨。",
+      "gloss": [9, 10]
+    },
+    {
+      "n": 7,
+      "zh": "SpaceX 预计「星舰」的需求将是天文数字，而且几乎全部来自自己。8 月，公司在路易斯安那州海岸买下 5 万公顷土地，计划在上面建至少 10 个发射台，希望最终实现一天发射几十次。与此同时，它打算在两年内停飞「猎鹰 9 号」。SpaceX 会——以及何时会——把「星舰」开放给外部客户，目前尚无定论，卫星制造商们已经在为日益迫近的发射窗口短缺而发愁。这次成功捕获想必让 SpaceX 的工程师们欣喜若狂——也让它的外部客户比从前更加紧张。■",
+      "gloss": [11, 12]
+    }
+  ],
+  "figures": [
+    { "n": 1, "caption_zh": "题图" }
+  ],
+  "glossary": [
+    {
+      "n": 1, "term": "pluck", "phonetic": "/plʌk/", "pos": "v.",
+      "sense": "摘取，猛地拉住",
+      "note": "plucked a rocket from mid-air「从半空中接住火箭」；本义「拔毛」，动作感强"
+    },
+    {
+      "n": 2, "term": "on the cusp of", "phonetic": "/kʌsp/", "pos": "id.",
+      "sense": "正处于……的关键点，即将……",
+      "note": "on the cusp of realising its goal「离实现目标只差一步」；cusp 本义「尖点」"
+    },
+    {
+      "n": 3, "term": "booster", "phonetic": "/ˈbuːstə/", "pos": "n.",
+      "sense": "（火箭的）助推器",
+      "note": "与 second stage「上面级／二级」相对；动词 boost「推升」"
+    },
+    {
+      "n": 4, "term": "in the event", "phonetic": "/ɪˈvent/", "pos": "id.",
+      "sense": "结果，最终（= as it turned out）",
+      "note": "熟词僻义：不是「在事件中」，而是「事情实际发生时」；In the event, the booster ran out of fuel"
+    },
+    {
+      "n": 5, "term": "belly-flop", "phonetic": "/ˈbeli flɒp/", "pos": "n.",
+      "sense": "（跳水时的）肚皮拍水；此处指火箭的「腹部朝下」翻转机动",
+      "note": "flop 即「扑通倒下」； belly-flop manoeuvre 是星舰回收的标志性动作"
+    },
+    {
+      "n": 6, "term": "finicky", "phonetic": "/ˈfɪnɪki/", "pos": "adj.",
+      "sense": "挑剔的，容易出小毛病的",
+      "note": "The tiles have proved finicky「瓦片已被证明很娇气」；形容物指「难伺候」"
+    },
+    {
+      "n": 7, "term": "plasma", "phonetic": "/ˈplæzmə/", "pos": "n.",
+      "sense": "等离子体",
+      "note": "再入大气层时空气被加热电离形成的炽热气体层；重音在第一音节"
+    },
+    {
+      "n": 8, "term": "intact", "phonetic": "/ɪnˈtækt/", "pos": "adj.",
+      "sense": "完好无损的",
+      "note": "an intact and dry second stage「完好且干燥的上面级」；词根 tact「触摸」，未被动过"
+    },
+    {
+      "n": 9, "term": "payload", "phonetic": "/ˈpeɪləʊd/", "pos": "n.",
+      "sense": "有效载荷，运载量",
+      "note": "launch 200 tonnes of payload「发射 200 吨载荷」；航天高频词，pay＝赚钱的，load＝货"
+    },
+    {
+      "n": 10, "term": "aspire to", "phonetic": "/əˈspaɪə/", "pos": "phr.",
+      "sense": "渴望达到，立志实现",
+      "note": "aspires to costs of less than $10m「指望成本低于一千万美元」；名词 aspiration"
+    },
+    {
+      "n": 11, "term": "fret", "phonetic": "/fret/", "pos": "v.",
+      "sense": "担忧，发愁（常指无谓的着急）",
+      "note": "satellite-makers fretting about a launch shortage「卫星制造商为发射窗口短缺发愁」；fret over/about",
+      "match": "fretting"
+    },
+    {
+      "n": 12, "term": "looming", "phonetic": "/ˈluːmɪŋ/", "pos": "adj.",
+      "sense": "迫近的，隐隐逼近的（常指不好的事）",
+      "note": "a looming launch shortage「日益迫近的发射短缺」；动词 loom large「显得突出／逼近」"
+    }
+  ]
+}

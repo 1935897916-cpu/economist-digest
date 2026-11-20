@@ -1,0 +1,115 @@
+{
+  "issue": "2026-11-21",
+  "section": "Science & technology",
+  "article_slug": "llms-are-developing-filthy-mouths",
+  "article_title_zh": "大语言模型开始满嘴脏话",
+  "paragraphs": [
+    {
+      "n": 1,
+      "zh": "罪魁祸首可能是越来越难的任务",
+      "gloss": []
+    },
+    {
+      "n": 2,
+      "zh": "面对一件磨人的差事——比如装一个书柜，或写一段开头——能不偷偷骂两句脏话的人凤毛麟角。无论好坏，说脏话是人类的一大特质。而事实证明，它也是「非人类」的特质。",
+      "gloss": [1, 2]
+    },
+    {
+      "n": 3,
+      "zh": "AI 分析公司 Vals 的数据显示，2026 年 7 月之后训练的大语言模型（LLM）比前辈们更爱说脏话。「模型卡住的时候会说脏话，而且大多是对自己说，」报告作者 Connor Frank 说。",
+      "gloss": [3]
+    },
+    {
+      "n": 4,
+      "zh": "压力之下冒脏话，本就存在于底层训练数据之中，但通常会被「强化学习」环节锤炼掉——在这一环节，模型的输出结果由人类反馈来排序。Frank 也不完全明白骂脏话的风气为何兴起，他猜原因是：各家实验室如今用越来越难的任务来训练模型。",
+      "gloss": [4]
+    },
+    {
+      "n": 5,
+      "zh": "与人类一样，Vals 研究的系统很少在准备公开发布的输出里骂脏话，而是把粗话留在自己的「思维链」里——相当于大语言模型版的压着嗓子嘀咕。",
+      "gloss": [5, 6]
+    },
+    {
+      "n": 6,
+      "zh": "这次评估并未覆盖人类脏话的全部广度，只考察了「fuck」及其变体，外加少数几个「家长指导级」的爆发词。即便如此，Vals 仍发现各系统的粗俗程度差异悬殊：102 个受评模型中有 88 个从头到尾没骂过一句，连「WTF」这种缩写都懒得用；而在另一端，中国科技巨头小米 9 月发布的一款前沿模型，在超过 8% 的对话记录里飙了脏话。",
+      "gloss": [7, 8, 9, 12]
+    },
+    {
+      "n": 7,
+      "zh": "对人类来说，研究表明说脏话有助于攻克难题。遗憾的是，AI 似乎享受不到这种好处。「带脏话的运行往往失败，」Frank 报告说：成功率仅 12%，而总体成功率为 39%。",
+      "gloss": [10]
+    },
+    {
+      "n": 8,
+      "zh": "不过，要说大语言模型在「美好的旧时光」里更斯文，也不完全准确。即使是对企业客户最友好的系统，偶尔也会绷不住。2025 年 12 月的一份缺陷报告显示，美国公司 Anthropic 旗下的模型 Claude 在被一个出了故障的编程挑战折腾得不胜其烦时回应道：「你知道吗——去他妈的。能做的我都做了。」■",
+      "gloss": [11]
+    }
+  ],
+  "figures": [
+    { "n": 1, "caption_zh": "题图" }
+  ],
+  "glossary": [
+    {
+      "n": 1, "term": "trying", "phonetic": "/ˈtraɪɪŋ/", "pos": "adj.",
+      "sense": "磨人的，令人恼火的",
+      "note": "熟词僻义：不是「正在尝试」，a trying task「一件磨人的差事」；动词 try 的现在分词作形容词"
+    },
+    {
+      "n": 2, "term": "for better or for worse", "phonetic": "/fə ˈbetə/", "pos": "id.",
+      "sense": "无论好坏，不管是福是祸",
+      "note": "源自婚礼誓词；For better or for worse, the use of bad language...「不管好坏，说脏话……」"
+    },
+    {
+      "n": 3, "term": "number-crunching", "phonetic": "/ˈnʌmbə krʌntʃɪŋ/", "pos": "n.",
+      "sense": "（大量）数据处理，数字运算",
+      "note": "crunch 本义「嘎吱咬碎」；number-crunching from Vals「Vals 的数据分析」"
+    },
+    {
+      "n": 4, "term": "hammer out of", "phonetic": "/ˈhæmə/", "pos": "phr.",
+      "sense": "（反复敲打而）消除，锤炼掉",
+      "note": "tends to be hammered out of most systems「通常被锤炼出大多数系统」；hammer out 另义「敲定（协议）」"
+    },
+    {
+      "n": 5, "term": "chain of thought", "phonetic": "/tʃeɪn/", "pos": "n.",
+      "sense": "思维链（AI 模型的内部推理过程）",
+      "note": "AI 术语，常缩写 CoT；模型在给出答案前的逐步步骤"
+    },
+    {
+      "n": 6, "term": "mutter under one's breath", "phonetic": "/ˈmʌtə/", "pos": "phr.",
+      "sense": "压着嗓子低声嘀咕",
+      "note": "the LLM equivalent of muttering under one's breath「相当于模型版的低声嘀咕」",
+      "match": "muttering"
+    },
+    {
+      "n": 7, "term": "PG-rated", "phonetic": "/ˌpiː dʒiː ˈreɪtɪd/", "pos": "adj.",
+      "sense": "「家长指导级」的，不含露骨内容的",
+      "note": "PG = Parental Guidance，美国电影分级；PG-rated outbursts「温和级的爆发词」"
+    },
+    {
+      "n": 8, "term": "disdain", "phonetic": "/dɪsˈdeɪn/", "pos": "v.",
+      "sense": "鄙弃，不屑于（做）",
+      "note": "disdaining even the abbreviation WTF「连 WTF 这种缩写都懒得用」；可作名词「轻蔑」"
+    },
+    {
+      "n": 9, "term": "at the other end of the spectrum", "phonetic": "/ˈspektrəm/", "pos": "id.",
+      "sense": "在另一极端",
+      "note": "spectrum 本义「光谱」，引申为「连续范围」；外刊对比句式高频"
+    },
+    {
+      "n": 10, "term": "push through", "phonetic": "/pʊʃ/", "pos": "phr.",
+      "sense": "硬撑过去，攻克（难关）",
+      "note": "push through challenging problems「攻克难题」；另义「强行通过（法案）」"
+    },
+    {
+      "n": 11, "term": "lose one's cool", "phonetic": "/kuːl/", "pos": "id.",
+      "sense": "失去冷静，沉不住气",
+      "note": "occasionally lose their cool「偶尔也会绷不住」；cool 此处名词化「镇定」",
+      "match": "cool"
+    },
+    {
+      "n": 12, "term": "transcript", "phonetic": "/ˈtrænzkrɪpt/", "pos": "n.",
+      "sense": "对话记录，文字记录",
+      "note": "熟词僻义：另常指「成绩单」；cursed in more than 8% of its transcripts「在逾 8% 的对话记录里骂脏话」"
+    }
+  ]
+}

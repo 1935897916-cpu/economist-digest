@@ -386,7 +386,7 @@ def theme_bar() -> str:
         '<button class="tbtn" data-theme-btn="dark" aria-pressed="false"'
         ' title="深色">深</button>'
         '<button class="tbtn" data-theme-btn="sepia" aria-pressed="false"'
-        ' title="羊皮纸">羊</button>'
+        ' title="羊皮纸（米黄护眼）">纸</button>'
         "</div>")
 
 

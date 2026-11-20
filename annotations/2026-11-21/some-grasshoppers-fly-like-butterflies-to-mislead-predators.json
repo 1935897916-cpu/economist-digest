@@ -1,0 +1,154 @@
+{
+  "issue": "2026-11-21",
+  "section": "Science & technology",
+  "article_slug": "some-grasshoppers-fly-like-butterflies-to-mislead-predators",
+  "article_title_zh": "有些蚱蜢飞起来像蝴蝶，为的是迷惑捕食者",
+  "paragraphs": [
+    {
+      "n": 1,
+      "zh": "这是「与运动相关的拟态」的一个罕见例子",
+      "gloss": []
+    },
+    {
+      "n": 2,
+      "zh": "对一个身处猛兽环伺世界的小动物来说，长得「看上去很可口」是致命的错误；而长得像某种恶心或危险的东西，反倒是一门保命的本事。这叫贝氏拟态。",
+      "gloss": [1, 2]
+    },
+    {
+      "n": 3,
+      "zh": "自 1862 年博物学家 Henry Bates 提出这一概念以来，贝氏拟态的例子随处可见：有长得像黄蜂的苍蝇，长得像毒毛虫的鸟，还有装成蛇的无害毛虫。渥太华卡尔顿大学昆虫学家 Tom Sherratt 领导的新研究，为一种罕见形式的贝氏拟态提供了证据：卡罗来纳蚱蜢（Dissosteira carolina）能让潜在的捕食者相信，追它纯属白费力气。",
+      "gloss": [2]
+    },
+    {
+      "n": 4,
+      "zh": "Sherratt 博士对蚱蜢的兴趣始于他从英国搬到加拿大之后——有人告诉他，他一直以为自己看到的是蝴蝶，其实那是蚱蜢。他发现，采集者想抓北美常见的一种名叫「黄缘蛱蝶」的蝴蝶时，常常错抓了蚱蜢。",
+      "gloss": [3, 4]
+    },
+    {
+      "n": 5,
+      "zh": "Sherratt 博士怀疑这就是贝氏拟态。模仿是明显的：两者都有黑黄相间的翅膀。但好处却难以确定：这种蝴蝶并不难吃、无毒、也不蜇人。那为什么要模仿它？",
+      "gloss": [5, 6, 7]
+    },
+    {
+      "n": 6,
+      "zh": "Sherratt 博士和他的团队比较了两种昆虫的颜色，以及卡罗来纳蚱蜢「懒洋洋的扇翅」动作——正是这一特征屡屡骗过蝴蝶采集者。研究者还在实验室和野外对这些虫子，以及来自同一地区的其他蚱蜢拍摄了高速视频。",
+      "gloss": []
+    },
+    {
+      "n": 7,
+      "zh": "团队的分析显示，两者在颜色上只有中等程度的相似，远不及其他贝氏拟态中常见的高度吻合：蚱蜢翅膀的黄色与蝴蝶的黄色色调并不完全相同，蚱蜢翅膀上还缺少蝴蝶特有的蓝色斑点。",
+      "gloss": [8]
+    },
+    {
+      "n": 8,
+      "zh": "然而一旦飞起来，相似度就变得惊人。Sherratt 团队在《进化生态学》（Evolutionary Ecology）上报告说，卡罗来纳蚱蜢的振翅频率比当地其他任何蚱蜢都至少慢 26%，从 40–50 赫兹降到 20 赫兹左右——离黄缘蛱蝶平均 10 赫兹的频率已经不远了。",
+      "gloss": [9]
+    },
+    {
+      "n": 9,
+      "zh": "研究者还注意到，蚱蜢张开翅膀滑翔的时间远多于同类，行为几乎与黄缘蛱蝶一模一样。Sherratt 博士指出，蚱蜢这种「骗人」的飞行方式，恰好弥补了它在颜色上较为逊色的模仿。",
+      "gloss": [10, 11]
+    },
+    {
+      "n": 10,
+      "zh": "Sherratt 博士猜想，进化把蚱蜢推向这些适应方式，有两个原因。其一，黄缘蛱蝶出了名的难抓：它在空中善于闪避，鸟类常常干脆不理它——因为这一口不值得追。鉴于蚱蜢是许多鸟类的主食，卡罗来纳蚱蜢可以从这身伪装中获益。",
+      "gloss": [12, 13]
+    },
+    {
+      "n": 11,
+      "zh": "其次，蚱蜢在空中像黄色蝴蝶，还带来另一种（非贝氏的）好处：落地时，它会猛地把翅膀收起，露出土色的身躯。Sherratt 博士猜测，这种突然的变化可能让鸟以为自己跟丢了猎物，从而收兵作罢。",
+      "gloss": []
+    },
+    {
+      "n": 12,
+      "zh": "Sherratt 博士的假说还有待进一步验证。如果他是对的，那恰好印证了诸多剧院老板早已懂得的道理：行头不够光鲜，可以用足够精彩的身段来补。■",
+      "gloss": [14, 15, 16]
+    }
+  ],
+  "figures": [
+    { "n": 1, "caption_zh": "题图" }
+  ],
+  "glossary": [
+    {
+      "n": 1, "term": "predator", "phonetic": "/ˈpredətə/", "pos": "n.",
+      "sense": "捕食者，掠食动物",
+      "note": "本篇核心词，反复出现；动词 predate；形容词 predatory"
+    },
+    {
+      "n": 2, "term": "Batesian mimicry", "phonetic": "/ˈbeɪtsiən ˈmɪmɪkri/", "pos": "n.",
+      "sense": "贝氏拟态：无害物种模仿危险物种以求自保",
+      "note": "以博物学家 Henry Bates 命名；mimicry 源自动词 mimic「模仿」"
+    },
+    {
+      "n": 3, "term": "nab", "phonetic": "/næb/", "pos": "v.",
+      "sense": "抓住，逮住（口语）",
+      "note": "often nab grasshoppers by mistake「常常错抓蚱蜢」；比 catch 更口语、更俏皮"
+    },
+    {
+      "n": 4, "term": "mourning cloak", "phonetic": "/ˈmɔːnɪŋ kləʊk/", "pos": "n.",
+      "sense": "黄缘蛱蝶（北美一种黑黄色蝴蝶）",
+      "note": "字面「哀悼的斗篷」，指其深色翅缘；学名 Nymphalis antiopa"
+    },
+    {
+      "n": 5, "term": "unpalatable", "phonetic": "/ʌnˈpælətəbl/", "pos": "adj.",
+      "sense": "难吃的；令人反感的",
+      "note": "The butterfly is not unpalatable「蝴蝶并不难吃」；词根 palatable「可口」"
+    },
+    {
+      "n": 6, "term": "pin down", "phonetic": "/pɪn/", "pos": "phr.",
+      "sense": "确定，查明（难以捉摸的事物）",
+      "note": "The benefit was harder to pin down「好处更难说清」；另有「压制住」义"
+    },
+    {
+      "n": 7, "term": "venomous", "phonetic": "/ˈvenəməs/", "pos": "adj.",
+      "sense": "分泌毒液的（能主动注毒）",
+      "note": "注意区分：venomous「主动放毒」vs poisonous「本身有毒，吃了中毒」"
+    },
+    {
+      "n": 8, "term": "hue", "phonetic": "/hjuː/", "pos": "n.",
+      "sense": "色调，色相",
+      "note": "not quite the same hue of yellow「黄色调不完全相同」；同义 shade / tint"
+    },
+    {
+      "n": 9, "term": "not far off", "phonetic": "/fɑː ɒf/", "pos": "id.",
+      "sense": "相差不远，很接近",
+      "note": "not far off the mourning cloak's frequency「离蛱蝶的频率已不远」；口语常用",
+      "match": "far off"
+    },
+    {
+      "n": 10, "term": "outstretched", "phonetic": "/ˌaʊtˈstretʃt/", "pos": "adj.",
+      "sense": "张开的，伸展的",
+      "note": "with wings outstretched「张开翅膀」；stretch out 的过去分词作定语"
+    },
+    {
+      "n": 11, "term": "feebler", "phonetic": "/ˈfiːblə/", "pos": "adj.",
+      "sense": "更弱的，更逊色的",
+      "note": "its feebler colour match「较为逊色的颜色模仿」；feeble 原义「虚弱的」"
+    },
+    {
+      "n": 12, "term": "staple", "phonetic": "/ˈsteɪpl/", "pos": "n.",
+      "sense": "主食；主要组成部分",
+      "note": "熟词僻义：a staple of many bird diets「许多鸟类的日常主食」；形容词义「主要的」也常见"
+    },
+    {
+      "n": 13, "term": "evasive", "phonetic": "/ɪˈveɪsɪv/", "pos": "adj.",
+      "sense": "善于躲避的；闪躲的",
+      "note": "It is evasive in the air「它在空中善于闪避」；名词 evasion；另义「闪烁其词」"
+    },
+    {
+      "n": 14, "term": "impresario", "phonetic": "/ˌɪmprɪˈsɑːriəʊ/", "pos": "n.",
+      "sense": "（歌剧、演出等的）主办方，剧院经理",
+      "note": "theatrical impresarios「剧院老板」；意大利语借词，重音在第三音节"
+    },
+    {
+      "n": 15, "term": "lacklustre", "phonetic": "/ˈlæklʌstə/", "pos": "adj.",
+      "sense": "黯淡无光的，平淡无奇的",
+      "note": "英式拼写（美式 lackluster）；lacklustre costuming「不够光鲜的行头」；lustre 即「光泽」"
+    },
+    {
+      "n": 16, "term": "choreography", "phonetic": "/ˌkɒriˈɒɡrəfi/", "pos": "n.",
+      "sense": "编舞，舞蹈设计；此处喻指飞行姿态",
+      "note": "sufficiently spectacular choreography「足够精彩的身段」；与 lacklustre costuming 构成全文最后的戏剧隐喻"
+    }
+  ]
+}

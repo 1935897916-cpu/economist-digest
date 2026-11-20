@@ -1,0 +1,134 @@
+{
+  "issue": "2026-11-21",
+  "section": "Science & technology",
+  "article_slug": "should-women-sync-their-lifestyle-to-their-menstrual-cycle",
+  "article_title_zh": "女性该按月经周期来安排生活吗？",
+  "paragraphs": [
+    {
+      "n": 1,
+      "zh": "对一个人管用的办法，未必适合另一个人",
+      "gloss": []
+    },
+    {
+      "n": 2,
+      "zh": "所有顶尖运动员都要面对相似的挑战：既要兼顾繁忙的训练日程和个人生活，又要不断记录热量与补水情况。女运动员还有一项额外的数据要追踪：月经周期。2016 年发表于《PLOS ONE》的一项针对女运动员的研究中，被归为精英级的受访者有超过半数表示周期会影响表现；2024 年对英国田径运动员的类似调查中，这一比例超过了 75%。",
+      "gloss": [1, 2, 3]
+    },
+    {
+      "n": 3,
+      "zh": "在缺乏明确健康指导的情况下，TikTok 上的网红们开始贡献建议，也就不足为奇了。「周期同步」（cycle-syncing）——围绕月经周期安排从锻炼到饮食的一切——如今无处不在。但它真的有用吗？",
+      "gloss": [4, 5]
+    },
+    {
+      "n": 4,
+      "zh": "一个典型的月经周期有两个固定的里程碑：一是排卵，卵子从卵巢释出；二是月经，未受精的卵子让子宫内膜脱落。身体为这两件事所做的准备涉及大幅的激素波动：生殖激素雌激素的水平在排卵前后达到峰值，另一种激素孕酮的水平则在之后达到峰值，两者都在月经来潮前骤降。",
+      "gloss": [6, 7, 8, 9]
+    },
+    {
+      "n": 5,
+      "zh": "周期其余部分（通常一个月左右）的界定就模糊得多。但这挡不住「周期同步」爱好者们套用一个整齐的四阶段划分：月经期（出血）、卵泡期（卵巢内含卵的卵泡生长）、排卵期（卵子释出）和黄体期（空卵泡退化）。倡导者声称，月经期激素水平低、又逢失血，精力处于最低点，随后在卵泡期稳步回升；孕酮则会拖慢消化、造成腹胀，让黄体期格外难熬；黄体期结束时的激素骤降还常带来头痛、腹绞痛和情绪低落等副作用。",
+      "gloss": [10, 11]
+    },
+    {
+      "n": 6,
+      "zh": "「周期同步」的建议是按阶段安排活动和饮食。例如：月经期锻炼应更温和，优先补铁；卵泡期专注于创造性工作，训练强度逐步加码直到排卵；到了难熬的黄体期，有人建议把力量训练换成瑜伽，少吃会加重经前绞痛的高糖食物。",
+      "gloss": []
+    },
+    {
+      "n": 7,
+      "zh": "「周期同步」给女性提供的确定感颇具吸引力，但科学家警告，它的根基并不可靠。「还没有严格的随机对照研究，」巴尔的摩约翰斯·霍普金斯大学的女性健康研究者 Liisa Hantsoo 说，「很多说法都只是个人经验之谈。」",
+      "gloss": [12]
+    },
+    {
+      "n": 8,
+      "zh": "个人经验尤其不可靠，因为不同女性的周期长度可能相差悬殊，症状的性质与轻重也各不相同。比如卵泡期的长度可以从 7 天到 21 天不等；即便同一位女性，随着年龄增长或更换避孕方式，周期也很可能缩短。",
+      "gloss": [13]
+    },
+    {
+      "n": 9,
+      "zh": "对日常生活确实受周期影响的人，特别疲惫时歇一歇大概没错。但总体而言，Hantsoo 博士说：「没有什么一成不变的铁律。」最明智的建议是记住：对一个人管用的办法，未必适合另一个人。记录自己的症状、找出什么对自己有效，或许才能得到最好的结果。■",
+      "gloss": [14]
+    },
+    {
+      "n": 10,
+      "zh": "想要一份免费、有科学依据的健康与养生指南？欢迎订阅我们每周的 Well Informed 通讯。",
+      "gloss": []
+    }
+  ],
+  "figures": [
+    { "n": 1, "caption_zh": "题图" }
+  ],
+  "glossary": [
+    {
+      "n": 1, "term": "elite", "phonetic": "/eɪˈliːt/", "pos": "adj.",
+      "sense": "顶尖的，精英级的",
+      "note": "熟词僻义：此处是形容词；all elite athletes「所有顶尖运动员」；名词指「精英阶层」"
+    },
+    {
+      "n": 2, "term": "juggle", "phonetic": "/ˈdʒʌɡl/", "pos": "v.",
+      "sense": "同时应付（多件事），左右兼顾",
+      "note": "Juggling a busy training schedule with a personal life「兼顾训练日程与个人生活」；本义「抛接杂耍」",
+      "match": "juggling"
+    },
+    {
+      "n": 3, "term": "hydration", "phonetic": "/haɪˈdreɪʃn/", "pos": "n.",
+      "sense": "补水，水分补充",
+      "note": "tracking calories and hydration levels「记录热量与补水情况」；动词 hydrate"
+    },
+    {
+      "n": 4, "term": "in the absence of", "phonetic": "/ˈæbsəns/", "pos": "phr.",
+      "sense": "在没有……的情况下",
+      "note": "In the absence of clear health guidance「在缺乏明确指导的情况下」；外刊高频句式"
+    },
+    {
+      "n": 5, "term": "ubiquitous", "phonetic": "/juːˈbɪkwɪtəs/", "pos": "adj.",
+      "sense": "无处不在的",
+      "note": "is now ubiquitous「如今随处可见」；名词 ubiquity；重音在第二音节"
+    },
+    {
+      "n": 6, "term": "ovulation", "phonetic": "/ˌɒvjuˈleɪʃn/", "pos": "n.",
+      "sense": "排卵",
+      "note": "ovary「卵巢」→ ovulate（动词）→ ovulation；医学术语"
+    },
+    {
+      "n": 7, "term": "uterine lining", "phonetic": "/ˈjuːtəraɪn ˈlaɪnɪŋ/", "pos": "n.",
+      "sense": "子宫内膜",
+      "note": "uterine「子宫的」+ lining「内衬层」；causes the uterine lining to shed「让子宫内膜脱落」"
+    },
+    {
+      "n": 8, "term": "oestrogen", "phonetic": "/ˈiːstrədʒən/", "pos": "n.",
+      "sense": "雌激素",
+      "note": "英式拼写（美式 estrogen）；发音是 /iːs-/ 不是 /ɒe-/"
+    },
+    {
+      "n": 9, "term": "progesterone", "phonetic": "/prəʊˈdʒestərəʊn/", "pos": "n.",
+      "sense": "孕酮，黄体酮",
+      "note": "重音在第二音节；与 pro-「支持」+ gestation「妊娠」相关，字面「助孕之激素」"
+    },
+    {
+      "n": 10, "term": "luteal", "phonetic": "/ˈluːtiəl/", "pos": "adj.",
+      "sense": "黄体的",
+      "note": "luteal phase「黄体期」即排卵后至月经前的阶段；源于拉丁语 luteus「黄色」"
+    },
+    {
+      "n": 11, "term": "bloating", "phonetic": "/ˈbləʊtɪŋ/", "pos": "n.",
+      "sense": "腹胀，胀气",
+      "note": "slower digestion and bloating「消化变慢与腹胀」；动词 bloat「使肿胀」"
+    },
+    {
+      "n": 12, "term": "anecdotal", "phonetic": "/ˌænɪkˈdəʊtl/", "pos": "adj.",
+      "sense": "缺乏严格证据的，只凭个人经验的",
+      "note": "a lot of it is anecdotal「很多说法只是个案经验」；anecdote「轶事」；对比 evidence-based「有据可依」"
+    },
+    {
+      "n": 13, "term": "contraceptive", "phonetic": "/ˌkɒntrəˈseptɪv/", "pos": "adj.",
+      "sense": "避孕的；避孕药具",
+      "note": "switches contraceptive methods「更换避孕方式」；contra「对抗」+ ception「受孕」"
+    },
+    {
+      "n": 14, "term": "hard and fast", "phonetic": "/hɑːd ənd fɑːst/", "pos": "id.",
+      "sense": "（规则）固定不变的，严格明确的",
+      "note": "There are no hard and fast rules「没有一成不变的铁律」；几乎总以否定形式出现"
+    }
+  ]
+}
