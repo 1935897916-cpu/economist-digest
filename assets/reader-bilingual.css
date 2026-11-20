@@ -189,3 +189,28 @@ sup.wg:hover, sup.wg:focus-visible { text-decoration: underline; }
   margin-top: .3rem;
 }
 .reading-list a:active { background: var(--accent-soft); }
+
+/* 目录：精读/未精读状态与点单按钮 */
+.reading-list li.rd-todo { padding: .9rem .4rem; }
+.reading-list li.rd-todo .ttl { color: var(--text); font-weight: 600; font-size: .98rem; }
+.badge {
+  display: inline-block; margin-left: .5rem; padding: .1rem .5rem;
+  font-size: .72rem; font-weight: 700; border-radius: 999px;
+  background: var(--accent-soft, rgba(0,120,90,.12)); color: var(--accent, #0a7d5c);
+  vertical-align: 1px;
+}
+.order-btn {
+  margin-left: .6rem; padding: .28rem .9rem; font-size: .82rem; font-weight: 700;
+  border: 1.5px solid var(--accent, #0a7d5c); border-radius: 999px;
+  background: transparent; color: var(--accent, #0a7d5c);
+  cursor: pointer; -webkit-tap-highlight-color: transparent;
+}
+.order-btn:active { background: var(--accent-soft, rgba(0,120,90,.12)); }
+.order-toast {
+  position: fixed; left: 50%; bottom: 5.5rem; transform: translate(-50%, .6rem);
+  padding: .55rem 1.2rem; border-radius: 999px;
+  background: var(--text, #222); color: var(--bg, #fff);
+  font-size: .88rem; opacity: 0; pointer-events: none;
+  transition: opacity .25s, transform .25s; z-index: 60;
+}
+.order-toast.show { opacity: .95; transform: translate(-50%, 0); }

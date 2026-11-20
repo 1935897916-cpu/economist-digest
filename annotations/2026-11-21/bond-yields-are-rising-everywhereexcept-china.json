@@ -1,0 +1,124 @@
+{
+  "issue": "2026-11-21",
+  "section": "Finance & economics",
+  "article_slug": "bond-yields-are-rising-everywhereexcept-china",
+  "article_title_zh": "全球债券收益率都在涨——除了中国",
+  "paragraphs": [
+    {
+      "n": 1,
+      "zh": "中国央行不太情愿地降了息",
+      "gloss": []
+    },
+    {
+      "n": 2,
+      "zh": "中国股市今年以其——咳咳——独特的表现引人注目：沪深 300 指数 2026 年下跌约 14%，与东亚及更广范围内泡沫四溢的市场形成反差。股市还不是中国金融里唯一的异类。世界第二大债券市场同样独树一帜：别处债券价格下跌、收益率上升，中国的债券却在上涨。政府债需求之旺，令五年期与十年期国债收益率创历史新低（见图表）。",
+      "gloss": [1, 2, 3, 4]
+    },
+    {
+      "n": 3,
+      "zh": "有人能从一只债券的价格里看出一个世界，但安全资产反映的主要是对货币政策的押注。这让中国的历史低收益率格外不寻常——因为其央行已明确表示不愿降息。中国人民银行行长潘功胜最近在党刊《求是》撰文，强调要压住中国超过 GDP 三倍的公共与私人债务。他说，国家决不能让金融总量超过实体经济的需要，否则会产生「闲置」资金，加大「淘汰落后产能」的难度。",
+      "gloss": [5, 6]
+    },
+    {
+      "n": 4,
+      "zh": "他还辩称，信贷增长急剧放缓不是货币政策问题，甚至根本不是问题：它反映的是经济正在远离房地产、基础设施等信贷密集型行业——这些行业靠拿土地和砖瓦作抵押从银行大笔借钱；取而代之，增长正由轻资产部门驱动，如 IT 服务，靠的是数据、品牌和人力资本。潘把一个行业的信贷存量（中长期贷款）与其一年创造的增加值作了对比：IT 服务业每创造 10 元增加值约欠 1 元贷款，房地产行业欠 17 元，交通运输欠 33 元。",
+      "gloss": [7, 8]
+    },
+    {
+      "n": 5,
+      "zh": "在最新的货币政策执行报告里，央行还辩称，利率比表面看上去要低。每个经济体的政策利率与其他关键利率（如房贷成本、公司债收益率）之间都有差距；中国的这一「利差」比别处窄。央行认为，在美国需要近零政策利率才能实现的金融条件，在中国用更高的利率就能达到。例如，中国房贷利率约 3%，与疫情期间美联储政策利率降到谷底时美国的低点相去不远。",
+      "gloss": [9, 10]
+    },
+    {
+      "n": 6,
+      "zh": "央行没有下调政策利率，而是改革了它。本月它正式改用 1.25% 的隔夜利率，取代此前 1.4% 的七天利率。纸面上，从一个利率换成另一个，两者均无变化：央行此前就在节假日前夕等临时场合以 1.25% 提供隔夜资金。但也许因为这些操作零星，市场上的隔夜利率略高于 1.25%。咨询公司 Absolute Strategy Research 的亚当·沃尔夫指出，改革让两者靠拢，实际上相当于降息约 0.1 个百分点。",
+      "gloss": [11, 12]
+    },
+    {
+      "n": 7,
+      "zh": "这一转变以及市场对它的预期，可能是债券收益率近期走低的原因之一。股市的困境可能也帮了忙：房地产低迷之后急着重建养老钱的家庭，可能因对股票失望而躲进债基。债券与股票本应反向而行——这条金融法则近来在西方已不大灵验，但在中国，老式的跷跷板仍在运转。在这个金融领域，一如在太多其他领域，中国也许又是一个异类。■",
+      "gloss": [13, 14, 15]
+    }
+  ],
+  "figures": [
+    { "n": 1, "caption_zh": "题图" },
+    { "n": 2, "caption_zh": "图" }
+  ],
+  "glossary": [
+    {
+      "n": 1, "term": "frothy", "phonetic": "/ˈfrɒθi/", "pos": "adj.",
+      "sense": "泡沫化的，（价格）虚高的",
+      "note": "frothy markets「泡沫四溢的市场」；froth「泡沫」，咖啡奶泡那种"
+    },
+    {
+      "n": 2, "term": "outlier", "phonetic": "/ˈaʊtlaɪə/", "pos": "n.",
+      "sense": "异类，离群值",
+      "note": "the only outlier in Chinese finance「中国金融里唯一的异类」；统计数据里偏离群体的点"
+    },
+    {
+      "n": 3, "term": "rally", "phonetic": "/ˈræli/", "pos": "v.",
+      "sense": "（价格）回升，反弹",
+      "note": "China's bonds have rallied「中国的债券却在上涨」；名词也常用：a bond rally"
+    },
+    {
+      "n": 4, "term": "yield", "phonetic": "/jiːld/", "pos": "n.",
+      "sense": "收益率（熟词僻义）",
+      "note": "the yields on five- and ten-year bonds「五年期与十年期国债收益率」；价格跌→收益率涨；本义「产量」"
+    },
+    {
+      "n": 5, "term": "keep a lid on", "phonetic": "/lɪd/", "pos": "phr.",
+      "sense": "压住，控制住",
+      "note": "keeping a lid on China's debts「压住中国的债务」；lid「锅盖」，把东西闷在锅里"
+    },
+    {
+      "n": 6, "term": "idle", "phonetic": "/ˈaɪdl/", "pos": "adj.",
+      "sense": "闲置的，空转的",
+      "note": "「idle」 funds「闲置资金」；idle capacity「闲置产能」；也形容人「无所事事」"
+    },
+    {
+      "n": 7, "term": "collateral", "phonetic": "/kəˈlætərəl/", "pos": "n.",
+      "sense": "抵押品",
+      "note": "offering their land, bricks and mortar as collateral「拿土地砖瓦作抵押」；finance 高频词"
+    },
+    {
+      "n": 8, "term": "asset-light", "phonetic": "/", "pos": "adj.",
+      "sense": "轻资产的",
+      "note": "asset-light sectors「轻资产部门」；商业用语，与 capital-intensive「重资产」相对"
+    },
+    {
+      "n": 9, "term": "spread", "phonetic": "/spred/", "pos": "n.",
+      "sense": "利差，价差（熟词僻义）",
+      "note": "this \"spread\" is narrower than elsewhere「这一利差比别处窄」；两个利率之差"
+    },
+    {
+      "n": 10, "term": "rock bottom", "phonetic": "/rɒk/", "pos": "id.",
+      "sense": "谷底，最低点",
+      "note": "when the Fed's policy rate was at rock bottom「政策利率降到谷底时」；hit rock bottom「跌到谷底」"
+    },
+    {
+      "n": 11, "term": "ad hoc", "phonetic": "/ˌæd ˈhɒk/", "pos": "phr.",
+      "sense": "临时的，特设的",
+      "note": "provided overnight funds … on an ad hoc basis「在临时场合提供隔夜资金」；拉丁语「为此而设」"
+    },
+    {
+      "n": 12, "term": "sporadic", "phonetic": "/spəˈrædɪk/", "pos": "adj.",
+      "sense": "零星的，偶发的",
+      "note": "because these operations were sporadic「因为这些操作零星」；反义 regular / continuous"
+    },
+    {
+      "n": 13, "term": "nest-egg", "phonetic": "/ˈnest eɡ/", "pos": "n.",
+      "sense": "养老钱，储备金",
+      "note": "eager to rebuild their nest-eggs「急着重建养老钱」；源自诱母鸡孵蛋的假蛋"
+    },
+    {
+      "n": 14, "term": "refuge", "phonetic": "/ˈrefjuːdʒ/", "pos": "n.",
+      "sense": "避风港，安身之处",
+      "note": "sought refuge in bond funds「躲进债券基金」；safe haven 同义，避险资产说 safe-haven assets"
+    },
+    {
+      "n": 15, "term": "seesaw", "phonetic": "/ˈsiːsɔː/", "pos": "n.",
+      "sense": "跷跷板；此消彼长",
+      "note": "the old seesaw is still working「老式的跷跷板仍在运转」；股债跷跷板是财经常用比喻"
+    }
+  ]
+}

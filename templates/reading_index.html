@@ -8,13 +8,46 @@
   <div class="issue-head r-head">
     <p class="eyebrow">英中对照精读</p>
     <h1>{{ heading }}</h1>
-    <p class="meta">共 {{ count }} 篇</p>
+    <p class="meta">已精读 {{ count }} / 全期 {{ total }} 篇；看中哪篇点「点单」，复制后发给 AI 即可补做</p>
   </div>
 
   <ul class="reading-list">
     {{ items }}
   </ul>
 </main>
+
+<div id="order-toast" class="order-toast" role="status" aria-live="polite"></div>
+
+<script>
+(function () {
+  var toast = document.getElementById("order-toast");
+  var timer = null;
+  document.addEventListener("click", function (ev) {
+    var btn = ev.target.closest(".order-btn");
+    if (!btn) return;
+    var text = btn.getAttribute("data-order") || "";
+    // 先给反馈，复制动作（在 http 本地预览下可能被浏览器禁用）不影响提示
+    toast.textContent = "已复制点单，去 WorkBuddy 粘贴发送即可";
+    toast.classList.add("show");
+    clearTimeout(timer);
+    timer = setTimeout(function () { toast.classList.remove("show"); }, 2600);
+    function fallback(t) {
+      var ta = document.createElement("textarea");
+      ta.value = t;
+      ta.style.position = "fixed"; ta.style.opacity = "0";
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand("copy"); } catch (e) {}
+      document.body.removeChild(ta);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).catch(function () { fallback(text); });
+    } else {
+      fallback(text);
+    }
+  });
+})();
+</script>
 
 {{ footer }}
 

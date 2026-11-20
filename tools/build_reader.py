@@ -217,18 +217,36 @@ def build_article_page(anno: dict, article, iss, tpl: dict[str, str],
 def build_reading_index(issue_annos: dict[str, dict], iss, art_map: dict,
                         tpl: dict[str, str], root: str, ver: str,
                         base_url: str) -> str:
+    issue_key = annot.issue_key(iss.issue)
     rows = []
-    for slug, anno in issue_annos.items():
-        art = art_map[slug]
-        rows.append(
-            f'<li><a href="{html.escape(art.slug, quote=True)}/">'
-            f'<span class="ttl">{html.escape(anno.get("article_title_zh", art.title))}</span>'
-            f'<span class="en-ttl">{html.escape(art.title)}</span>'
-            f'<span class="meta">{html.escape(art.section)} · {len(anno.get("glossary", []))} 条生词</span>'
-            f"</a></li>")
+    done = 0
+    for art in iss.articles:
+        if not art.title or art.title == art.section:
+            continue
+        anno = issue_annos.get(art.slug)
+        if anno:
+            done += 1
+            rows.append(
+                f'<li class="rd-done"><a href="{html.escape(art.slug, quote=True)}/">'
+                f'<span class="ttl">{html.escape(anno.get("article_title_zh", art.title))}</span>'
+                f'<span class="en-ttl">{html.escape(art.title)}</span>'
+                f'<span class="meta">{html.escape(art.section)} · {len(anno.get("glossary", []))} 条生词'
+                f'<b class="badge">精读</b></span>'
+                f"</a></li>")
+        else:
+            order = f"请精读 {issue_key} {art.section} 的《{art.title}》"
+            rows.append(
+                f'<li class="rd-todo">'
+                f'<span class="ttl">{html.escape(art.title)}</span>'
+                f'<span class="meta">{html.escape(art.section)}'
+                f'<button class="order-btn" type="button" title='
+                f'"{html.escape(order, quote=True)}" data-order='
+                f'"{html.escape(order, quote=True)}">点单</button></span>'
+                f"</li>")
     content = build.fill(tpl["reading_index"], {
         "heading": html.escape(f"精读目录 · {iss.issue}"),
-        "count": str(len(issue_annos)),
+        "count": str(done),
+        "total": str(len(rows)),
         "items": "\n".join(rows),
         "issue_href": root + "issues/" + iss.issue + "/",
         "theme_bar": build.theme_bar(),

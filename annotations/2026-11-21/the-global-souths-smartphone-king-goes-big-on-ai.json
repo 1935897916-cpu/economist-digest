@@ -1,0 +1,139 @@
+{
+  "issue": "2026-11-21",
+  "section": "Business",
+  "article_slug": "the-global-souths-smartphone-king-goes-big-on-ai",
+  "article_title_zh": "全球南方的手机之王押注 AI",
+  "paragraphs": [
+    {
+      "n": 1,
+      "zh": "面对日益激烈的竞争和上涨的成本，传音正在谋划下一步大棋",
+      "gloss": []
+    },
+    {
+      "n": 2,
+      "zh": "在内罗毕的街头，Tecno、Infinix 或 itel 品牌的智能手机随处可见。这些时髦设备全部出自传音——一家按销量计在全球南方最大的手机销售商。去年它卖出 1.7 亿部手机，约为苹果的三分之二。在非洲，售出的手机一多半是传音的。",
+      "gloss": [1, 2]
+    },
+    {
+      "n": 3,
+      "zh": "这家公司的成功之道，是规模化造手机，并在价格与设计上为选定市场量身定制。但随着竞争白热化、AI 热潮推高半导体成本，它必须做得更多。于是它开始涉足新产品——并在 AI 上押下自己的赌注。",
+      "gloss": [3, 4]
+    },
+    {
+      "n": 4,
+      "zh": "传音的成功建立在三大支柱上。其一，与许多中国同行不同，它出海很早。传音创始人 2000 年代就开始在非洲做生意；2013 年创办现公司时，非洲就是它的重心。几年后它扩展到印度和东南亚。如今它通过 2,900 家经销商组成的庞大网络在 100 多个国家卖手机，并与当地电信运营商保持密切关系。",
+      "gloss": [5]
+    },
+    {
+      "n": 5,
+      "zh": "其二是定制。传音手机的售价通常不到 iPhone 的十分之一，对手头拮据的顾客很有吸引力。手机设计也贴合本地需求：非洲经常停电，传音就主打长续航与快充；还开发出更耐炎热气候的「防汗」USB 接口。对游戏成风的东南亚，它开发了单独售卖的散热手机壳。（公司自带的手机游戏应用月活用户达 1.4 亿。）",
+      "gloss": [6]
+    },
+    {
+      "n": 6,
+      "zh": "其三是规模。传音约四成智能手机由自己的六家工厂生产（中国四家，孟加拉国、埃塞俄比亚各一家），其余外包给 17 家代工企业，多数在中国。部分得益于这种混合模式，这家手机厂商身手敏捷，一部智能手机从开发到上市只要四到八个月。",
+      "gloss": [7]
+    },
+    {
+      "n": 7,
+      "zh": "这套策略原本运转良好。从 2019 年（公司在上海上市那年）到 2024 年，收入增长了 170%（见图表）。但此后便陷入停滞。自 2024 年 4 月以来，公司股价已跌去约一半。",
+      "gloss": [8]
+    },
+    {
+      "n": 8,
+      "zh": "在较新的市场，传音遭遇了更凶的竞争，包括全球巨头。巴西是拉美最大的智能手机市场，传音 2021 年进入；据分析机构 Counterpoint Research 数据，2026 年上半年三星对巴西的出货量同比增长 10%，而传音在巴西的主品牌 Infinix 出货量下滑 24%。",
+      "gloss": [9]
+    },
+    {
+      "n": 9,
+      "zh": "芯片涨价——全行业的难题——也咬得越来越疼。今年头四个月，存储芯片已占传音产品制造成本的近一半，2023 年还只有五分之一，此后占比可能进一步上升。公司因此大幅抬高手机售价，保住了毛利率，却导致上半年智能手机销量下滑——用户把旧手机用得更久了。",
+      "gloss": [10, 11]
+    },
+    {
+      "n": 10,
+      "zh": "作为对这两重难题的回应，传音正在拓展新业务。它如今不仅卖智能手表、耳机和厨电，还卖储能产品（包括便携电池模组），甚至卖两轮和三轮电动车。这听起来有点跨度太大，但在全球南方，消费者往往认准熟悉的品牌，而传音的操作系统在各产品间打通互联，也是助力。2026 年上半年，手机以外产品的收入占比达 16%，是两年前的两倍。",
+      "gloss": [12, 13, 14]
+    },
+    {
+      "n": 11,
+      "zh": "但传音最大的长期赌注在 AI。上个月它在香港上市募得 3.9 亿美元，计划把其中五分之二用于研发 AI 模型与应用。它的部分设备已集成数字助手等 AI 功能。公司还在与中国的科研机构合作，攻关视觉基础模型、语音识别等方向。其员工有五分之一从事研发——在向 AI 转型的路上，他们有得忙了。■",
+      "gloss": []
+    }
+  ],
+  "figures": [
+    { "n": 1, "caption_zh": "题图" },
+    { "n": 2, "caption_zh": "图" }
+  ],
+  "glossary": [
+    {
+      "n": 1, "term": "by volume", "phonetic": "/ˈvɒljuːm/", "pos": "phr.",
+      "sense": "按销量／数量计",
+      "note": "the biggest phone-seller by volume「按销量计最大的手机商」；商业报道高频搭配"
+    },
+    {
+      "n": 2, "term": "shift", "phonetic": "/ʃɪft/", "pos": "v.",
+      "sense": "卖出，销掉（熟词僻义）",
+      "note": "shifted 170m handsets「卖出 1.7 亿部手机」；英式商业用语，= sell；本义「移动、换挡」"
+    },
+    {
+      "n": 3, "term": "at scale", "phonetic": "/skeɪl/", "pos": "phr.",
+      "sense": "大规模地",
+      "note": "making phones at scale「规模化造手机」；scale 在商业语境指「体量」"
+    },
+    {
+      "n": 4, "term": "tailor", "phonetic": "/ˈteɪlə/", "pos": "v.",
+      "sense": "量身定制，针对性调整",
+      "note": "tailored in price and design to its chosen markets「在价格与设计上为选定市场量身定制」；本义「裁缝」"
+    },
+    {
+      "n": 5, "term": "pillar", "phonetic": "/ˈpɪlə/", "pos": "n.",
+      "sense": "支柱，核心支撑",
+      "note": "rested on three pillars「建立在三大支柱上」；本义「柱子」"
+    },
+    {
+      "n": 6, "term": "outage", "phonetic": "/ˈaʊtɪdʒ/", "pos": "n.",
+      "sense": "停电；服务中断",
+      "note": "power outages are frequent「经常停电」；tech 新闻里也指「宕机」"
+    },
+    {
+      "n": 7, "term": "nimble", "phonetic": "/ˈnɪmbl/", "pos": "adj.",
+      "sense": "敏捷灵活的，动作快的",
+      "note": "has proved nimble「证明了身手敏捷」；商业语境指「转向快、决策灵活」"
+    },
+    {
+      "n": 8, "term": "stagnate", "phonetic": "/stæɡˈneɪt/", "pos": "v.",
+      "sense": "停滞，止步不前",
+      "note": "since then it has stagnated「此后便陷入停滞」；名词 stagnation"
+    },
+    {
+      "n": 9, "term": "shipment", "phonetic": "/ˈʃɪpmənt/", "pos": "n.",
+      "sense": "出货量，装运",
+      "note": "shipments to the country were 10% higher「对巴西出货量高 10%」；手机行业销量标准说法"
+    },
+    {
+      "n": 10, "term": "jack up", "phonetic": "/dʒæk/", "pos": "phr.",
+      "sense": "大幅抬高（价格）",
+      "note": "has jacked up handset prices「大幅抬高手机售价」；jack 本义「千斤顶」，往上顶"
+    },
+    {
+      "n": 11, "term": "gross margin", "phonetic": "/ɡrəʊs/", "pos": "n.",
+      "sense": "毛利率",
+      "note": "shielded its gross margin「保住了毛利率」；与 net margin「净利率」相对"
+    },
+    {
+      "n": 12, "term": "branch out", "phonetic": "/", "pos": "phr.",
+      "sense": "拓展新业务，开枝散叶",
+      "note": "Transsion is branching out「传音正在拓展新业务」；树枝分叉之喻"
+    },
+    {
+      "n": 13, "term": "stretch", "phonetic": "/stretʃ/", "pos": "id.",
+      "sense": "（跨度）过大，牵强",
+      "note": "That may sound like a stretch「听起来跨度有点大」；a bit of a stretch 也指「有点牵强」"
+    },
+    {
+      "n": 14, "term": "stick to", "phonetic": "/", "pos": "phr.",
+      "sense": "坚持用，认准",
+      "note": "consumers often stick to familiar brands「消费者往往认准熟悉的品牌」；stick to one's guns「坚持立场」"
+    }
+  ]
+}

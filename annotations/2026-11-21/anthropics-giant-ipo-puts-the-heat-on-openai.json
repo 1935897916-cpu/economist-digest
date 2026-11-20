@@ -1,0 +1,250 @@
+{
+  "issue": "2026-11-21",
+  "section": "Business",
+  "article_slug": "anthropics-giant-ipo-puts-the-heat-on-openai",
+  "article_title_zh": "Anthropic 巨型 IPO 让 OpenAI 如坐针毡",
+  "paragraphs": [
+    {
+      "n": 1,
+      "zh": "编程智能体是门大生意。但下一步呢？",
+      "gloss": []
+    },
+    {
+      "n": 2,
+      "zh": "OpenAI 的老板们心里窝火，情有可原。四年前他们发布 ChatGPT，掀起了这轮人工智能热潮。随后模仿聊天机器人的产品数不胜数，却没有任何一个在人气上追上来。到去年，OpenAI 的年收入已达 130 亿美元——几乎是其头号劲敌 Anthropic 的三倍（见图表）。",
+      "gloss": [
+        1,
+        2
+      ]
+    },
+    {
+      "n": 3,
+      "zh": "然而，由 OpenAI 出走者创办的 Anthropic，却以总额 1,070 亿美元完成了有史以来规模最大的首次公开募股（IPO）。11 月 19 日（本刊付印后）开始交易之前，这家公司估值已达 1.5 万亿美元，超过了仍未上市的 OpenAI 在最近一轮私募融资中的 1.3 万亿美元估值。",
+      "gloss": [
+        3,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "zh": "OpenAI 或许赢下了模型厂商之间围绕聊天机器人的第一阶段竞争，但在第二阶段——编程智能体成为最大业务来源——Anthropic 把它彻底打垮。Anthropic 的编程机器人 Claude Code 的使用量今年直线上升。因此，担任这家 AI 公司 IPO 主承销商的高盛预计，其 2026 年收入将达 530 亿美元，是一年前的十倍多，也稳稳领先于预计收入 350 亿美元的 OpenAI（不过直接比较并不容易：Anthropic 把经云合作伙伴产生的全部销售都计为收入，而 OpenAI 会扣除付给他们的分成）。",
+      "gloss": [
+        5,
+        6
+      ]
+    },
+    {
+      "n": 5,
+      "zh": "尽管如此，过去几年的经验表明，在瞬息万变的 AI 市场上，领先优势转眼就可能易手。OpenAI 自家的编程工具 Codex 近几个月使用量增长迅猛。更重要的是，两家模型厂商都在寻找下一个大收入来源，竞争的新阶段眼看就要开始。Anthropic 和 OpenAI 都在积极推动把智能体铺进知识工作的每个角落；但 OpenAI 还押注了多种其他途径来变现其技术。哪种战略会赢？",
+      "gloss": []
+    },
+    {
+      "n": 6,
+      "zh": "两家公司都指望未来几年里灼热般的增长来撑起自己的估值。高盛预计 Anthropic 的年收入将在 2030 年达到 6,360 亿美元；未参与此次 IPO 的投行 William Blair 则预测为 4,140 亿。OpenAI 方面最近告诉投资者，它的目标是 2030 年拿下 4,460 亿。",
+      "gloss": [
+        7,
+        8
+      ]
+    },
+    {
+      "n": 7,
+      "zh": "在主要对手面前失了先手，OpenAI 近来开始提速。上周它告诉投资者，第三季度企业销售收入环比翻倍——部分得益于旨在从价格上压过 Anthropic 的折扣。",
+      "gloss": [
+        9
+      ]
+    },
+    {
+      "n": 8,
+      "zh": "不过对这两家来说，企业级开支仍然高度集中。一位 Anthropic 投资者说，智能体收入目前附着在一条「极端幂律」上：最大的客户贡献了不成比例的高份额销售，而这些公司里使用最重的用户——几乎总是软件工程师——撑起了其中大部分支出。",
+      "gloss": [
+        10
+      ]
+    },
+    {
+      "n": 9,
+      "zh": "如果这些用户转投更便宜的模型——许多人已经开始这么做——这就是一个风险。但它也说明，推广使用的空间仍然很大。今年 Anthropic 和 OpenAI 都推出了通用型企业智能体，不懂编程的人也能用它完成五花八门的任务。除了与咨询业巨头合作，两家模型厂商还借助私募资本的支持设立了自己的独立咨询业务，帮客户部署其技术。知情人士透露，在 Anthropic 旗下由黑石与 Hellman & Friedman 支持的 Ode 所协助重构流程的客户中，超过一半的利润至少增加了 1,000 万美元。上个月，Anthropic 又与另一家私募公司 Hg 成立了专注欧洲的独立咨询合资企业。",
+      "gloss": []
+    },
+    {
+      "n": 10,
+      "zh": "与两家 AI 实验室都有合作的云存储公司 Box 的首席执行官亚伦·列维说，「用对路的产品体验配上对路的销售力度」，可能比拥有最好的模型还要紧。即便如此，模型依然重要——而在这方面 Anthropic 优势明显。两家公司的投资者都认为，随着企业为控制成本而在简单工作上改用能力较弱的模型，在需要数小时乃至数天的「长时程」任务（比如从零开始构建一个应用）上的表现，对前沿实验室将越来越关键。在名为 MirrorCode 的一项长时程基准测试中，OpenAI 上月发布的旗舰模型，仍然不敌 Anthropic 早在 7 月就推出的最强产品。",
+      "gloss": [
+        11
+      ]
+    },
+    {
+      "n": 11,
+      "zh": "这或许反映了 Anthropic 更专注的研究路线。OpenAI 力求在图像、语音等广泛能力上都守住前沿，而 Anthropic 聚焦于让模型写代码、与其他软件交互的能力。",
+      "gloss": []
+    },
+    {
+      "n": 12,
+      "zh": "这又凸显了两家战略的差异。OpenAI 虽然努力在企业应用上夺回阵地，消费者业务仍是它的优先项。ChatGPT 全球每周用户达 12 亿，其中近 1 亿人每月花 8 美元以上订阅。即便不付费的用户，也能通过 OpenAI 今年 2 月上线的广告业务为它创造收入——到 8 月，该业务年化收入已达 10 亿美元。",
+      "gloss": []
+    },
+    {
+      "n": 13,
+      "zh": "相比之下，Anthropic 的招股书几乎不提消费者。它已发誓不做广告，担心广告会搅浑 Claude 给出有用回答的能力，还会诱使公司去做令人上瘾的产品。",
+      "gloss": [
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "n": 14,
+      "zh": "这使 OpenAI 拥有更大的可触达市场。但它的做法也有软肋。在消费者市场，它必须与谷歌竞争——谷歌的 Gemini 聊天机器人过去一年攻城略地——还要面对 Instinct 和 Meta 的 Muse 这类个人智能体，它们能替用户安排朋友聚餐、抢到售罄的演唱会门票，把用户迷得神魂颠倒。",
+      "gloss": [
+        15
+      ]
+    },
+    {
+      "n": 15,
+      "zh": "OpenAI 已下调了部分业务的优先级，3 月关停了视频生成工具 Sora，但仍在追求一套惊人庞杂的机会。明年它预计将发布一款硬件——一个甜甜圈造型的小音箱，消费者可用它与自己的 AI 系统交互。它还在研发人形机器人。危险在于摊子铺得太开。Anthropic 今年第二季度已实现首个季度经营利润，而 OpenAI 仍深陷亏损。它必须尽快追随对手的脚步，走向公开市场。■",
+      "gloss": [
+        16
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "n": 1,
+      "caption_zh": "题图"
+    },
+    {
+      "n": 2,
+      "caption_zh": "图"
+    }
+  ],
+  "glossary": [
+    {
+      "n": 1,
+      "term": "miffed",
+      "phonetic": "/mɪft/",
+      "pos": "adj.",
+      "sense": "恼火的，憋气的",
+      "note": "feeling miffed「心里窝火」；口语，程度比 angry 轻"
+    },
+    {
+      "n": 2,
+      "term": "arch-rival",
+      "phonetic": "/ɑːtʃ/",
+      "pos": "n.",
+      "sense": "头号劲敌，主要对手",
+      "note": "its arch-rival, Anthropic；arch- 前缀「最主要的」，如 archenemy「死敌」"
+    },
+    {
+      "n": 3,
+      "term": "secessionist",
+      "phonetic": "/sɪˈseʃənɪst/",
+      "pos": "n.",
+      "sense": "脱离者，出走分立者",
+      "note": "OpenAI secessionists「从 OpenAI 出走的人」；secession「分离」，历史上指南方脱离联邦"
+    },
+    {
+      "n": 4,
+      "term": "haul",
+      "phonetic": "/hɔːl/",
+      "pos": "n.",
+      "sense": "一笔进账，斩获（熟词僻义）",
+      "note": "a total haul of $107bn「共募得 1,070 亿美元」；本义「拖运」，也指渔获、赃物"
+    },
+    {
+      "n": 5,
+      "term": "trounce",
+      "phonetic": "/traʊns/",
+      "pos": "v.",
+      "sense": "完胜，痛击",
+      "note": "Anthropic trounced it「Anthropic 把它彻底打垮」；体育报道高频词"
+    },
+    {
+      "n": 6,
+      "term": "pull in",
+      "phonetic": "/",
+      "pos": "phr.",
+      "sense": "赚得，进账",
+      "note": "pull in $53bn of revenue「收入达 530 亿美元」；本义「（车）驶入」"
+    },
+    {
+      "n": 7,
+      "term": "blistering",
+      "phonetic": "/ˈblɪstərɪŋ/",
+      "pos": "adj.",
+      "sense": "惊人快的，灼热的",
+      "note": "blistering growth「灼热般的增长」；blister「水泡」，形容速度快得烫手"
+    },
+    {
+      "n": 8,
+      "term": "shoot for",
+      "phonetic": "/",
+      "pos": "phr.",
+      "sense": "以……为目标，争取达到",
+      "note": "shooting for $446bn in 2030「目标是 2030 年拿下 4,460 亿」；口语"
+    },
+    {
+      "n": 9,
+      "term": "undercut",
+      "phonetic": "/ˌʌndəˈkʌt/",
+      "pos": "v.",
+      "sense": "以更低价格抢生意；削弱",
+      "note": "price discounts intended to undercut Anthropic「旨在用低价压过 Anthropic 的折扣」；也指「暗中破坏」"
+    },
+    {
+      "n": 10,
+      "term": "adhere to",
+      "phonetic": "/ədˈhɪə/",
+      "pos": "phr.",
+      "sense": "附着于；遵循",
+      "note": "Revenue adheres to an extreme power law「收入附着在一条极端幂律上」；常用义为「恪守（规则）」"
+    },
+    {
+      "n": 11,
+      "term": "from scratch",
+      "phonetic": "/skrætʃ/",
+      "pos": "id.",
+      "sense": "从零开始，白手起家",
+      "note": "building an app from scratch「从零开始做一个应用」；scratch 本义「抓痕」，起跑线上的抓痕即起点"
+    },
+    {
+      "n": 12,
+      "term": "prospectus",
+      "phonetic": "/prəˈspektəs/",
+      "pos": "n.",
+      "sense": "招股说明书",
+      "note": "Anthropic's IPO prospectus「Anthropic 的招股书」；上市文件的核心，词根指「概览」"
+    },
+    {
+      "n": 13,
+      "term": "swear off",
+      "phonetic": "/",
+      "pos": "phr.",
+      "sense": "发誓戒绝，保证不再碰",
+      "note": "has sworn off advertising「已发誓不做广告」；swear off drinking「戒酒」",
+      "match": "sworn off"
+    },
+    {
+      "n": 14,
+      "term": "muddy",
+      "phonetic": "/ˈmʌdi/",
+      "pos": "v.",
+      "sense": "搅浑，使模糊不清",
+      "note": "muddy Claude's ability to give helpful answers「搅浑 Claude 给出有用回答的能力」；mud「泥」"
+    },
+    {
+      "n": 15,
+      "term": "beguile",
+      "phonetic": "/bɪˈɡaɪl/",
+      "pos": "v.",
+      "sense": "迷住，哄骗",
+      "note": "have beguiled users「把用户迷得神魂颠倒」；be-＋guile「诡计」，兼有「迷人」与「骗人」两义"
+    },
+    {
+      "n": 16,
+      "term": "in the red",
+      "phonetic": "/",
+      "pos": "id.",
+      "sense": "亏损，出现赤字",
+      "note": "remains deep in the red「仍深陷亏损」；账面赤字用红墨水标记的传统；反义 in the black"
+    }
+  ]
+}

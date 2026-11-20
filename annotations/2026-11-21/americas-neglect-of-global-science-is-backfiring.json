@@ -1,0 +1,220 @@
+{
+  "issue": "2026-11-21",
+  "section": "Leaders",
+  "article_slug": "americas-neglect-of-global-science-is-backfiring",
+  "article_title_zh": "美国对全球科学的漠视正在反噬自身",
+  "paragraphs": [
+    {
+      "n": 1,
+      "zh": "特朗普政府的改革，对过去的错误矫枉过正",
+      "gloss": [
+        1
+      ]
+    },
+    {
+      "n": 2,
+      "zh": "美国科学领先世界，靠的是两样东西：本土培养的实力，以及对与外国研究者合作的开放态度。特朗普政府只想依赖公式的前一半。据我们独家报道，美国国家卫生研究院（NIH）涉及海外合作者的资助项目，2025 与 2026 两年的平均数量比 2022–24 年少了 38%。与此同时，政府还在大幅收紧外国科学家赴美学习和工作的通道。",
+      "gloss": [
+        2
+      ]
+    },
+    {
+      "n": 3,
+      "zh": "海外科研经费确实需要更多监管。但在对待外国知识和外国人才的问题上，政府矫枉过正。结果将不利于全人类——因为没有哪个国家能像开放外向的美国那样大幅推进科学前沿；也将不利于美国自己。",
+      "gloss": [
+        3
+      ]
+    },
+    {
+      "n": 4,
+      "zh": "NIH 自 1947 年起资助外国科学家，1960 年的《国际健康研究法》让这一做法正式化。当年推动该法案的约翰·福格蒂认为，医学研究合作能促进和平。这一点见仁见智，但这笔钱确实造福巨大。NIH 的福格蒂国际中心已为较贫穷国家培养了数千名健康研究者，一些结业学员如今执掌本国的医疗体系。美国人也直接受益：例如 2021 年一项 NIH 支持的试验表明，结核病四个月即可治愈，而非六个月。在海外做试验往往更快更便宜——某些疾病在世界其他地区更常见（如艾滋病），招募受试者也就更容易。",
+      "gloss": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "n": 5,
+      "zh": "特朗普政府辩称，海外研究可能构成国家安全风险，美国纳税人理应得到更好的监督。这些顾虑不无道理。武汉病毒研究所——新冠病毒可能的源头之一——曾通过与美国非营利组织生态健康联盟（现已解散）的合作获得 NIH 经费。但政府的改革方式笨拙而不加区分，把关节炎、艾滋病、痴呆症等有前景的全球研究经费一并砍掉。我们的分析显示，政治偏好在这笔钱的分配中扮演了令人不安的角色：涉及南非的研究受损格外严重——特朗普阵营正因种族政治问题对南非心怀积怨。",
+      "gloss": [
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "n": 6,
+      "zh": "新的移民政策让全球科学以及美国的科学霸主地位雪上加霜。签证拖延、旅行禁令以及毕业后工作权利受到威胁，导致美国 55 所研究型大学的国际学生博士项目申请量下降 21%（其他外国学生的新入学人数同样大幅下滑）。7 月一项新规落地，把学生与交流签证缩短为四年——比大多数博士项目都短——到期后须申请延期（该规目前已被法院叫停）。政府还提议向大学收取每名学生最高 10 万美元的费用，换取毕业后最多三年的工作许可——这是一笔让人望而却步的巨款。",
+      "gloss": [
+        11,
+        12
+      ]
+    },
+    {
+      "n": 7,
+      "zh": "把有才华的外国科学家挡在美国门外，是一种毫无意义的自残。外国人并非处于美国科学的边缘：美国科学类诺贝尔奖得主有三分之一生于国外；2023 年约五分之三的博士后科学家持临时签证；在马萨诸塞州——美国生物科技行业事实上的首都——约 30% 的 STEM 从业者出生于国外。没有他们，美国的科学引擎会弱得多。",
+      "gloss": [
+        13,
+        15,
+        16
+      ]
+    },
+    {
+      "n": 8,
+      "zh": "由共和党控制的国会已经在顶回白宫：否决了把 NIH 预算砍 40% 的提案，拒绝撤销福格蒂国际中心。即将接管国会的民主党人应当强化这条防线，并举行听证会审查政府的行为。到目前为止，科学在其议程中着墨不多，这增加了科学被忽视的状态延续到特朗普任期之后的风险。国际研究网络中的信任要花多年才能建立；欢迎外国人才的名声亦然。时不我待。■",
+      "gloss": [
+        14,
+        17
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "n": 1,
+      "caption_zh": "题图"
+    }
+  ],
+  "glossary": [
+    {
+      "n": 1,
+      "term": "overcorrect",
+      "phonetic": "/ˌəʊvəkəˈrekt/",
+      "pos": "v.",
+      "sense": "矫枉过正，纠偏过头",
+      "note": "have overcorrected for past mistakes「对过去的错误矫枉过正」；over- 前缀「过度」",
+      "match": "overcorrected"
+    },
+    {
+      "n": 2,
+      "term": "home-grown",
+      "phonetic": "/",
+      "pos": "adj.",
+      "sense": "本土培养的，土生土长的",
+      "note": "its home-grown strength「本土实力」；与 imported 相对；也指自家种的蔬菜"
+    },
+    {
+      "n": 3,
+      "term": "oversight",
+      "phonetic": "/ˈəʊvəsaɪt/",
+      "pos": "n.",
+      "sense": "监督，监管（熟词僻义）",
+      "note": "needed more oversight「需要更多监管」；不是「疏忽」（漏看之义），国会 oversight hearings 即「监督听证会」"
+    },
+    {
+      "n": 4,
+      "term": "formalise",
+      "phonetic": "/ˈfɔːməlaɪz/",
+      "pos": "v.",
+      "sense": "使制度化，使正式化",
+      "note": "formalised the practice「使这一做法正式化」；英式拼写（美式 formalize）"
+    },
+    {
+      "n": 5,
+      "term": "debatable",
+      "phonetic": "/dɪˈbeɪtəbl/",
+      "pos": "adj.",
+      "sense": "有争议的，见仁见智的",
+      "note": "That is debatable「这一点可以商榷」；常用于委婉表达不同意"
+    },
+    {
+      "n": 6,
+      "term": "alumni",
+      "phonetic": "/əˈlʌmnaɪ/",
+      "pos": "n.",
+      "sense": "校友；（培训项目的）结业学员",
+      "note": "some alumni now run national health systems「一些学员如今执掌全国医疗系统」；单数 alumnus"
+    },
+    {
+      "n": 7,
+      "term": "enrol",
+      "phonetic": "/ɪnˈrəʊl/",
+      "pos": "v.",
+      "sense": "招募（受试者）；注册入学",
+      "note": "Enrolling patients is easier「招募病人更容易」；临床试验高频词；英式单 l",
+      "match": "Enrolling"
+    },
+    {
+      "n": 8,
+      "term": "inept",
+      "phonetic": "/ɪˈnept/",
+      "pos": "adj.",
+      "sense": "笨拙无能的，手法拙劣的",
+      "note": "inept and indiscriminate「笨拙而一刀切」；词根 ept「能干」（apt 同源），反义 adept"
+    },
+    {
+      "n": 9,
+      "term": "indiscriminate",
+      "phonetic": "/ˌɪndɪˈskrɪmɪnət/",
+      "pos": "adj.",
+      "sense": "不加区分的，一刀切的",
+      "note": "cutting off money ... indiscriminately 即「不分青红皂白地砍经费」；动词 discriminate「区别对待」"
+    },
+    {
+      "n": 10,
+      "term": "beef",
+      "phonetic": "/biːf/",
+      "pos": "id.",
+      "sense": "积怨，不满（俚语）",
+      "note": "has a beef about race politics「因种族政治问题心怀不满」；俚语 have a beef with sb，本义「牛肉」"
+    },
+    {
+      "n": 11,
+      "term": "aggravate",
+      "phonetic": "/ˈæɡrəveɪt/",
+      "pos": "v.",
+      "sense": "加剧，使恶化",
+      "note": "is being aggravated by new immigration policies「被新移民政策雪上加霜」；词根 grav「重」"
+    },
+    {
+      "n": 12,
+      "term": "prohibitive",
+      "phonetic": "/prəˈhɪbɪtɪv/",
+      "pos": "adj.",
+      "sense": "（价格）高得让人望而却步的",
+      "note": "a prohibitive sum「一笔吓退众人的巨款」；动词 prohibit「禁止」——贵到等于禁止"
+    },
+    {
+      "n": 13,
+      "term": "deter",
+      "phonetic": "/dɪˈtɜː/",
+      "pos": "v.",
+      "sense": "威慑，使不敢",
+      "note": "Deterring talented foreign scientists「把人才吓跑」；deter sb from doing；名词 deterrent",
+      "match": "Deterring"
+    },
+    {
+      "n": 14,
+      "term": "stiffen",
+      "phonetic": "/ˈstɪfn/",
+      "pos": "v.",
+      "sense": "强化，使更坚决",
+      "note": "should stiffen this defence「应当强化这道防线」；stiff「僵硬的」+ -en 使动后缀"
+    },
+    {
+      "n": 15,
+      "term": "de facto",
+      "phonetic": "/ˌdeɪ ˈfæktəʊ/",
+      "pos": "adj.",
+      "sense": "事实上的，实际的",
+      "note": "the de facto capital「事实上的首都」；拉丁语，与 de jure「法律上的」相对"
+    },
+    {
+      "n": 16,
+      "term": "postdoctoral",
+      "phonetic": "/ˌpəʊstˈdɒktərəl/",
+      "pos": "adj.",
+      "sense": "博士后的",
+      "note": "postdoctoral scientists「博士后研究人员」；post-「之后」+ doctoral「博士的」；口语常省作 postdoc"
+    },
+    {
+      "n": 17,
+      "term": "scrutinise",
+      "phonetic": "/ˈskruːtɪnaɪz/",
+      "pos": "v.",
+      "sense": "仔细审查，细察",
+      "note": "hold hearings to scrutinise the administration's actions「举行听证会审查政府行为」；英式拼写（美式 scrutinize）"
+    }
+  ]
+}
