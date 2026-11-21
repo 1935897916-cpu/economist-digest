@@ -647,3 +647,24 @@ a:hover { text-decoration: underline; }
   .prose h3 { break-after: avoid; }
   a { color: #000; text-decoration: none; }
 }
+
+/* 精读区入口（首页 + 期号页） */
+.rd-entry {
+  display: inline-block;
+  margin-left: .6rem;
+  padding: .16rem .75rem;
+  font-size: .8rem;
+  font-weight: 700;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1.5px solid var(--accent);
+  white-space: nowrap;
+}
+.rd-entry:active { transform: scale(.97); }
+.rd-entry-line { margin: .8rem 0 0; }
+.rd-entry-lg {
+  margin-left: 0;
+  padding: .45rem 1.1rem;
+  font-size: .92rem;
+}

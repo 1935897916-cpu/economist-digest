@@ -35,6 +35,20 @@ ROOT = Path(__file__).resolve().parent.parent
 CONTENT_DIR = ROOT / "content"
 TEMPLATE_DIR = ROOT / "templates"
 ASSETS_DIR = ROOT / "assets"
+ANNOTATIONS_DIR = ROOT / "annotations"
+
+
+def reading_info(issue_dot: str) -> tuple[bool, int]:
+    """该期是否有精读注解。issue_dot 形如 "2026.11.21"。
+
+    返回 (是否存在, 已精读篇数)。构建期只读 annotations/ 目录，
+    不导入 build_reader，保证两个构建入口互不依赖。
+    """
+    d = ANNOTATIONS_DIR / issue_dot.replace(".", "-")
+    if not d.is_dir():
+        return False, 0
+    n = len(list(d.glob("*.json")))
+    return n > 0, n
 
 SITE_TITLE = "The Economist Digest"
 SITE_DESC = "每期《经济学人》的纯文字整理版，移动优先，可订阅。"
@@ -287,6 +301,17 @@ def build_index_page(issues: list[Issue], tpl: dict[str, str],
             + "</span></a></li>")
 
     body = "\n".join(rows)
+    # 首页顶部：最新一期的精读入口（仅当该期已做精读时显示）
+    reading_entry = ""
+    if issues:
+        latest = issues[0]
+        has_rd, n_rd = reading_info(latest.issue)
+        if has_rd:
+            key = latest.issue.replace(".", "-")
+            reading_entry = (
+                f'<p class="rd-entry-line">'
+                f'<a class="rd-entry rd-entry-lg" href="reading/{key}/">'
+                f'中英对照精读 · {latest.issue}（{n_rd} 篇）</a></p>')
     # 首页位于站点根目录，相对前缀为空
     content = fill(tpl["index"], {
         "title": SITE_TITLE,
@@ -294,6 +319,7 @@ def build_index_page(issues: list[Issue], tpl: dict[str, str],
         "intro": SITE_DESC,
         "count": str(len(issues)),
         "issues": body,
+        "reading_entry": reading_entry,
         "feed_href": "feed.xml",
         "theme_bar": theme_bar(),
         "footer": footer(base_url, ""),
@@ -346,16 +372,23 @@ def build_issue_page(iss: Issue, tpl: dict[str, str], base_url: str) -> str:
             f'{iss.issue.replace(".", "-")}/cover.jpg" alt="" '
             'fetchpriority="high">')
 
-    content = fill(tpl["issue"], {
-        "eyebrow": "The Economist",
-        "heading": html.escape(iss.title),
-        "meta": (
+        meta = (
             f"<span>{html.escape(human_date(iss.date, iss.issue))}</span>"
             f"<span>{len(iss.articles)} 篇</span>"
             f"<span>约 {iss.minutes} 分钟</span>"
             + (f"<span>来源 {html.escape(iss.source)}</span>"
                if iss.source else "")
-        ),
+        )
+        has_rd, n_rd = reading_info(iss.issue)
+        if has_rd:
+            meta += (f'<a class="rd-entry" href="{root}reading/'
+                     f'{iss.issue.replace(".", "-")}/">'
+                     f'中英精读 {n_rd} 篇</a>')
+
+        content = fill(tpl["issue"], {
+            "eyebrow": "The Economist",
+            "heading": html.escape(iss.title),
+            "meta": meta,
         "toc": toc,
         "prose": prose,
         "cover": cover_html,

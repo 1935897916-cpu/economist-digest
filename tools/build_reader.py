@@ -249,6 +249,7 @@ def build_reading_index(issue_annos: dict[str, dict], iss, art_map: dict,
         "total": str(len(rows)),
         "items": "\n".join(rows),
         "issue_href": root + "issues/" + iss.issue + "/",
+        "index_href": root,
         "theme_bar": build.theme_bar(),
         "footer": build.footer(base_url, root),
     })

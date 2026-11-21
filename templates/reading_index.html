@@ -1,12 +1,13 @@
 <header class="topbar">
-  <a class="brand" href="{{ issue_href }}">← 本期原版</a>
+  <a class="brand" href="{{ index_href }}">← 网站首页</a>
+  <span class="r-brand-tag">精读</span>
   <span class="spacer"></span>
   {{ theme_bar }}
 </header>
 
 <main class="reader-wrap">
   <div class="issue-head r-head">
-    <p class="eyebrow">英中对照精读</p>
+    <p class="eyebrow">英中对照精读 · <a href="{{ issue_href }}">本期原版</a></p>
     <h1>{{ heading }}</h1>
     <p class="meta">已精读 {{ count }} / 全期 {{ total }} 篇；看中哪篇点「点单」，复制后发给 AI 即可补做</p>
   </div>
