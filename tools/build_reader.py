@@ -235,13 +235,20 @@ def build_reading_index(issue_annos: dict[str, dict], iss, art_map: dict,
                 f"</a></li>")
         else:
             order = f"请精读 {issue_key} {art.section} 的《{art.title}》"
+            # 点单走 GitHub Issue：平板/手机浏览器可直接提交，任务自动处理
+            from urllib.parse import quote
+            order_url = (
+                "https://github.com/1935897916-cpu/economist-digest"
+                "/issues/new?title=" + quote("点单：" + order)
+                + "&body=" + quote(order + "\n（由阅读站点单按钮自动生成）"))
             rows.append(
                 f'<li class="rd-todo">'
                 f'<span class="ttl">{html.escape(art.title)}</span>'
                 f'<span class="meta">{html.escape(art.section)}'
-                f'<button class="order-btn" type="button" title='
+                f'<a class="order-btn" href="{html.escape(order_url, quote=True)}"'
+                f' target="_blank" rel="noopener" title='
                 f'"{html.escape(order, quote=True)}" data-order='
-                f'"{html.escape(order, quote=True)}">点单</button></span>'
+                f'"{html.escape(order, quote=True)}">点单</a></span>'
                 f"</li>")
     content = build.fill(tpl["reading_index"], {
         "heading": html.escape(f"精读目录 · {iss.issue}"),

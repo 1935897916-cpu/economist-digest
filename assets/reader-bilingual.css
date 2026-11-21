@@ -200,6 +200,7 @@ sup.wg:hover, sup.wg:focus-visible { text-decoration: underline; }
   vertical-align: 1px;
 }
 .order-btn {
+  display: inline-block; text-decoration: none;
   margin-left: .6rem; padding: .28rem .9rem; font-size: .82rem; font-weight: 700;
   border: 1.5px solid var(--accent, #0a7d5c); border-radius: 999px;
   background: transparent; color: var(--accent, #0a7d5c);
