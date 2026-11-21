@@ -290,28 +290,25 @@ def build_index_page(issues: list[Issue], tpl: dict[str, str],
             thumb = (f'<img class="thumb" loading="lazy" alt="" '
                      f'src="assets/img/{iss.issue.replace(".", "-")}'
                      f'/cover.jpg">')
-        rows.append(
-            '<li><a href="' + html.escape(iss.url, quote=True) + '">'
+        main_link = (
+            '<a href="' + html.escape(iss.url, quote=True) + '">'
             + thumb
             + '<span class="num">' + html.escape(iss.issue) + "</span>"
             '<span class="ttl">' + html.escape(iss.title) + badge + "</span>"
             '<span class="meta">'
             + html.escape(human_date(iss.date, iss.issue))
             + f" · {len(iss.articles)} 篇 · {iss.minutes} 分钟"
-            + "</span></a></li>")
+            + "</span></a>")
+        # 该期有精读时，在期号旁边直接给出精读入口
+        has_rd, n_rd = reading_info(iss.issue)
+        rd_link = ""
+        if has_rd:
+            key = iss.issue.replace(".", "-")
+            rd_link = (f'<a class="rd-inline" href="reading/{key}/">'
+                       f'精读 {n_rd} 篇</a>')
+        rows.append("<li>" + main_link + rd_link + "</li>")
 
     body = "\n".join(rows)
-    # 首页顶部：最新一期的精读入口（仅当该期已做精读时显示）
-    reading_entry = ""
-    if issues:
-        latest = issues[0]
-        has_rd, n_rd = reading_info(latest.issue)
-        if has_rd:
-            key = latest.issue.replace(".", "-")
-            reading_entry = (
-                f'<p class="rd-entry-line">'
-                f'<a class="rd-entry rd-entry-lg" href="reading/{key}/">'
-                f'中英对照精读 · {latest.issue}（{n_rd} 篇）</a></p>')
     # 首页位于站点根目录，相对前缀为空
     content = fill(tpl["index"], {
         "title": SITE_TITLE,
@@ -319,7 +316,6 @@ def build_index_page(issues: list[Issue], tpl: dict[str, str],
         "intro": SITE_DESC,
         "count": str(len(issues)),
         "issues": body,
-        "reading_entry": reading_entry,
         "feed_href": "feed.xml",
         "theme_bar": theme_bar(),
         "footer": footer(base_url, ""),

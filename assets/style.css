@@ -668,3 +668,21 @@ a:hover { text-decoration: underline; }
   padding: .45rem 1.1rem;
   font-size: .92rem;
 }
+
+/* 首期期号列表：每期旁边的精读入口 */
+.issue-list li { position: relative; }
+.rd-inline {
+  position: absolute;
+  top: 1.05rem;
+  right: .25rem;
+  padding: .16rem .7rem;
+  font-size: .78rem;
+  font-weight: 700;
+  line-height: 1.5;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1.5px solid var(--accent);
+  white-space: nowrap;
+}
+.rd-inline:active { transform: scale(.97); }
