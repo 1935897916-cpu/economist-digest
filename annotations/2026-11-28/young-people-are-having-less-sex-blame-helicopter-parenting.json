@@ -1,0 +1,140 @@
+{
+  "issue": "2026-11-28",
+  "section": "Leaders",
+  "article_slug": "young-people-are-having-less-sex-blame-helicopter-parenting",
+  "article_title_zh": "年轻人的性生活变少了，怪「直升机式育儿」",
+  "paragraphs": [
+    {
+      "n": 1,
+      "zh": "过度保护的父母正在拖慢孩子的成长进程",
+      "gloss": []
+    },
+    {
+      "n": 2,
+      "zh": "本世纪初，许多家长忧心年轻人中蔓延的滥交之风。小说家汤姆·沃尔夫曾写得让人喘不过气地描写大学的「一夜情文化」：「它和氮气、氧气一道弥漫在空气里！整个校园都因它而潮乎乎！」学者唐娜·弗雷塔斯则警告随意性行为带来的疏离效应。保守派和部分女权主义者劝年轻人慢下来，在宽衣解带之前好好想一想。",
+      "gloss": [1, 2, 3, 4, 5]
+    },
+    {
+      "n": 3,
+      "zh": "「任务完成」。如今发达国家年轻人的性行为显著少于从前。根据英国性调查的旗舰项目「全国性态度与生活方式调查」（Natsal）的新数据，仅仅十余年间，从未有过性经历的 16 至 24 岁英国女性占比翻了一番，从 19% 升至 38%。年轻男性的这一比例在 2010 年至 2022-24 年间从 18% 跳升至 28%。虽然像英国这样全面收集性数据的地方寥寥无几，但「性减速」显然也波及其他国家。在日本，20 至 24 岁未婚女性中 55% 从未有过性经历，而 2005 年这一比例还不到 40%。在中国，自称有过随意性行为的年轻女性占比，从 2020 年的 17% 降到去年的 4%。",
+      "gloss": [6]
+    },
+    {
+      "n": 4,
+      "zh": "年纪更大的人的性生活也在减少，而且不只是因为他们老了。2000 年，35 至 44 岁英国人的中位数是每月四次；2010 年为每月三次；到 2022 年已降至每月两次。美国、芬兰和法国的研究都显示出类似的下行趋势。",
+      "gloss": []
+    },
+    {
+      "n": 5,
+      "zh": "这场大减速有一部分反映出：并非真心想要、只是勉强配合的性行为在减少。在法国，自认有时或经常只是为了取悦伴侣而非出于自身欲望才做的女性占比，在约二十年间下降了约六分之一。如果女性正变得更有主见，那是好事。青少年怀孕率下降同样可喜。",
+      "gloss": [7, 8]
+    },
+    {
+      "n": 6,
+      "zh": "但背后的原因远不止这些。年轻人走向独立比上一代人更慢。年幼时，父母围在他们身边打转，允许的无监管玩耍更少；到了青春期，他们更少打零工或学开车；成年后，离家自立也更迟。此外，新冠剥夺了许多学龄儿童与同龄人面对面社交的机会，让他们盯紧屏幕，而不是学习健康关系中的相互迁就。",
+      "gloss": [9, 10]
+    },
+    {
+      "n": 7,
+      "zh": "要找到伴侣，你就得走出去、冒着被拒绝的风险；然而研究者担心，过度保护式育儿已让年轻人更怯于冒险。一项研究发现，36% 的美国大学生仍在被父母用应用软件定位追踪。知道妈妈掌握着你的过夜地点，夜间冒险的兴致自然会大打折扣。",
+      "gloss": [11, 12, 13]
+    },
+    {
+      "n": 8,
+      "zh": "直升机式育儿不仅令年轻人窒息，也把父母拖得筋疲力尽。2018 年的年轻母亲照看孩子所花的时间，比上世纪 80 年代的母亲多出 52%（父亲的育儿时间翻了一倍，但基数较低）。把这种持续的盘旋照看叠加到有偿工作和家务的重担上，那么有孩子的夫妻不做爱最常见的原因之一，就是一方或双方太累了——这毫不奇怪。",
+      "gloss": [14]
+    },
+    {
+      "n": 9,
+      "zh": "这件事重要，因为性本身就重要。性不仅是人生一大乐事，还有益于健康（能改善情绪、减轻压力）、有益于感情（性生活不美满的伴侣更容易分手）、也有益于整体幸福感。年轻人的减速尤其令人担忧：到 25 岁还没有开过头的，日后更难享受美满的性生活。所以，尽管性减速成因复杂，但有一条充分的理由成立：直升机式父母不妨多放松一点，关掉那些追踪应用，给子女更多自由。■",
+      "gloss": [15, 16]
+    }
+  ],
+  "figures": [
+    { "n": 1, "caption_zh": "题图" }
+  ],
+  "glossary": [
+    {
+      "n": 1, "term": "fret", "phonetic": "/fret/", "pos": "v.",
+      "sense": "担忧，烦恼",
+      "note": "many parents fretted about「许多家长忧心」；fret about/over sth「为……操心」",
+      "match": "fretted"
+    },
+    {
+      "n": 2, "term": "promiscuity", "phonetic": "/ˌprɒmɪˈskjuːəti/", "pos": "n.",
+      "sense": "滥交，性乱",
+      "note": "an epidemic of promiscuity among the young「年轻人中蔓延的滥交之风」"
+    },
+    {
+      "n": 3, "term": "breathlessly", "phonetic": "/ˈbreθləsli/", "pos": "adv.",
+      "sense": "写得亢奋铺张、让人喘不过气地",
+      "note": "wrote breathlessly about「写得让人喘不过气」；本义「上气不接下气地」，形容笔调极度亢奋"
+    },
+    {
+      "n": 4, "term": "hook-up", "phonetic": "/ˈhʊkʌp/", "pos": "n.",
+      "sense": "（无感情承诺的）一夜情，随意约",
+      "note": "college hook-up culture「大学一夜情文化」；hook up with sb「与人随意发生关系」"
+    },
+    {
+      "n": 5, "term": "alienate", "phonetic": "/ˈeɪliəneɪt/", "pos": "v.",
+      "sense": "使疏远，使隔膜",
+      "note": "the alienating effects of casual sex「随意性行为带来的疏离效应」；名词 alienation",
+      "match": "alienating"
+    },
+    {
+      "n": 6, "term": "flagship", "phonetic": "/ˈflæɡʃɪp/", "pos": "adj.",
+      "sense": "旗舰的，最权威最重要的（熟词僻义）",
+      "note": "the flagship British sex survey「英国性调查的旗舰项目」；本义「旗舰」"
+    },
+    {
+      "n": 7, "term": "mate", "phonetic": "/meɪt/", "pos": "n.",
+      "sense": "伴侣，配偶（熟词僻义）",
+      "note": "only to please a mate「只为取悦伴侣」；不是英式口语的「哥们」"
+    },
+    {
+      "n": 8, "term": "assertive", "phonetic": "/əˈsɜːtɪv/", "pos": "adj.",
+      "sense": "坚定自信的，敢于表达主见的",
+      "note": "women are growing more assertive「女性正变得更有主见」；动词 assert「主张、断言」"
+    },
+    {
+      "n": 9, "term": "hover", "phonetic": "/ˈhɒvə/", "pos": "v.",
+      "sense": "盘旋不去，在旁紧盯（熟词僻义）",
+      "note": "parents hover over them「父母围在身边打转」；helicopter parenting 即由此而来"
+    },
+    {
+      "n": 10, "term": "give and take", "phonetic": "/ɡeɪv/", "pos": "id.",
+      "sense": "相互迁就，有来有往的妥协",
+      "note": "the give and take of healthy relationships「健康关系中的你来我往、相互迁就」"
+    },
+    {
+      "n": 11, "term": "risk-averse", "phonetic": "/ˌrɪsk əˈvɜːs/", "pos": "adj.",
+      "sense": "规避风险的，怕冒险的",
+      "note": "made the young more risk-averse「让年轻人更怯于冒险」；averse to「对……反感」"
+    },
+    {
+      "n": 12, "term": "track", "phonetic": "/træk/", "pos": "v.",
+      "sense": "定位追踪（熟词僻义）",
+      "note": "being tracked on apps by their parents「被父母用应用定位追踪」；本义「跟踪足迹」"
+    },
+    {
+      "n": 13, "term": "nocturnal", "phonetic": "/nɒkˈtɜːnl/", "pos": "adj.",
+      "sense": "夜间的",
+      "note": "inhibits nocturnal adventures「夜间冒险的兴致大打折扣」；本形容夜行动物 nocturnal animals"
+    },
+    {
+      "n": 14, "term": "oppressive", "phonetic": "/əˈpresɪv/", "pos": "adj.",
+      "sense": "令人窒息的，压抑的",
+      "note": "oppressive for the young「令年轻人窒息」；动词 oppress「压迫」"
+    },
+    {
+      "n": 15, "term": "split up", "phonetic": "/splɪt/", "pos": "phr.",
+      "sense": "分手，（情侣）散伙",
+      "note": "more likely to split up「更容易分手」；split 的过去式同形"
+    },
+    {
+      "n": 16, "term": "offspring", "phonetic": "/ˈɒfsprɪŋ/", "pos": "n.",
+      "sense": "子女，后代",
+      "note": "give their offspring more freedom「给子女更多自由」；单复数同形"
+    }
+  ]
+}

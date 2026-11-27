@@ -1,0 +1,168 @@
+{
+  "issue": "2026-11-28",
+  "section": "Leaders",
+  "article_slug": "robots-will-have-a-staggering-economic-impact",
+  "article_title_zh": "机器人将带来惊人的经济冲击",
+  "paragraphs": [
+    {
+      "n": 1,
+      "zh": "能用的人形机器人已为期不远",
+      "gloss": []
+    },
+    {
+      "n": 2,
+      "zh": "人形机器人有一种聊天机器人无法企及的想象力魅力。因此，未来学家们一直为人类造不出现实版 C-3PO 或「偏执机器人」马文而失望不已。大语言模型（LLM）或许已助力证明了自 1859 年以来难倒数学家的黎曼猜想，但它们在物理世界的表亲却连叠一条床单都费劲。人体那种全能的灵活与灵巧，比人类的智力成果更难复制：已将制造业大部分环节自动化的机器人，通常是固定在原地、永远重复同一任务的机器。害怕 AI 带来颠覆性影响的人因此稍感安心——走出屏幕，这项技术在物理世界的最大影响不过是些看上去乏味的数据中心。",
+      "gloss": [1, 2, 3]
+    },
+    {
+      "n": 3,
+      "zh": "然而，这一切很快就会改变。正如本刊报道，通用机器人正迅速精进。工程师们正把大语言模型背后的技术用到崭露头角的「双百年机器人」身上。进展之所以迅速，是因为机器人学开始受益于同一种「缩放定律」——正是它让 AI 在四年里从数不清数一路冲到数学前沿。按照一项指标衡量，大语言模型接入机器人后在物理世界的能力，每两个月就翻一倍。先进 AI 或许很快又能反过来帮助研发更好的机器人技术。硬件价格更是在崩跌：一家中国公司的人形机器人均价在两年内下降了 72%。",
+      "gloss": [4, 5]
+    },
+    {
+      "n": 4,
+      "zh": "因此，任何关于 AI 将如何改变经济的叙述，如果不满篇都是通用机器人，就是不完整的。它们会以各种形态出现，但越来越有能力胜任人类所能做的一切体力活的，将是人形机器人。AI 负责提供大脑。大语言模型已经解决了两个棘手问题：如何与机器人沟通（直接对它说话就行），以及机器人如何为乱糟糟的目标规划路径（这正是大语言模型的强项）。大语言模型式的模型也在改进更难的那一环——让机器人足够可靠地在真实世界中行动。机器人的躯体则带来与之配套的膂力。随着这套强强组合不断普及，它对人类工作与生活的影响将令人目眩。",
+      "gloss": [6, 7, 8, 9]
+    },
+    {
+      "n": 5,
+      "zh": "机器人革命很可能始于家庭。预测人士估计，首批 100 万人形机器人可能在未来 5 到 15 年内进驻美国的洗衣房和厨房。这两处满是不那么高风险的杂务，不需要机器人强到会对人构成危险。与职场不同——那里的自动化常遭抵制、有时还被明令禁止——几乎不会有人抗议不用自己往洗碗机里码碗碟。热情的极客将铺平道路，正如他们已经用扫地机器人和割草机器人做到的那样。",
+      "gloss": [10]
+    },
+    {
+      "n": 6,
+      "zh": "把人类、尤其是女性，从繁重的家务苦役中解放出来，是一桩不小的福祉。不过，要等机器人在随后几年、几十年里攻下工厂、医院和建筑工地，其经济后果才真正称得上深远。至少，机器人推翻了当今 AI 讨论中最偷懒的一个预设：只有认知类工作会受到冲击。指望转行当建筑工、电工或水管工的伏案白领，恐怕要落空了。",
+      "gloss": [11, 12]
+    },
+    {
+      "n": 7,
+      "zh": "如果 AI 在蓝领工作里也没有避风港，那么像比尔·盖茨提议的那种为人类保留特定类别岗位的简单粗暴的政府干预，将变得越来越有吸引力。更广范围的政治反弹也可能拖慢机器人的脚步。如今，自动驾驶汽车的推广比底层技术允许的速度慢，这多亏了心存戒备的地方官员，以及出租车司机、人身伤害律师等人的殿后抵抗。机器人触及的行业多得多，因此可能招致更激烈的敌意——但大概不足以挡住它们。",
+      "gloss": [13, 14]
+    },
+    {
+      "n": 8,
+      "zh": "那样一来，会发生什么？商品在哪里制造将会改变。今天，自由贸易和比较优势意味着：随着经济变富、通行工资上涨，工厂会迁往劳动力更廉价的地方。如果机器人接管生产、人类工资变得无足轻重，这一机制可能瓦解。土地和能源价格——它们在很大程度上取决于政策与邻避主义——将变得更加要紧。选民对机器人的抵触或许会减弱，因为被抢走的是外国人的工作。如果采摘水果、砌砖不再需要人手，各国政府对劳工移民可能愈发不欢迎。",
+      "gloss": [15, 16]
+    },
+    {
+      "n": 9,
+      "zh": "服务业经济也可能被颠覆。几百年来，许多服务工作被证明几乎不受生产率增长影响。经济学家威廉·鲍莫尔指出，弦乐四重奏所需的人力投入与莫扎特时代并无二致。照料老人这类工作也是如此。机器人可能打破这一格局。",
+      "gloss": [17]
+    },
+    {
+      "n": 10,
+      "zh": "相对价格与工资届时将剧烈变动。随着大规模生产使商品与服务变得丰裕，更多东西会走上 T 恤的老路。正如农业已经发生的情形：产出可以飙升，而价格跌得更快，以至于整个行业在 GDP 中的份额几乎消失殆尽。但并非一切都会变便宜。土地和自然资源依旧稀缺；以商品与服务来衡量，它们可能身价倍增。（如果你觉得今天的房租已经够呛，那就等着它占据经济产出的大头吧。）",
+      "gloss": []
+    },
+    {
+      "n": 11,
+      "zh": "或许仍然需要人来做机器人系统的管理、驾驭、监督和维护，正如拖拉机并没有让所有农民失业。人类也许更愿意让某些工作由人类来完成——一支机器人管弦乐团真值得那个票价吗？对「关系型商品」的偏好，可以让人类用自己的劳动去交换机器人生产的商品与服务。我们希望如此。另一种可能是出现一个极不平等的经济体：机器人和 AI 只为拥有它们的人效力，其余所有人则与机器人争夺能源、土地和资本。",
+      "gloss": []
+    },
+    {
+      "n": 12,
+      "zh": "过去几年 AI 的惊人跃进让全世界措手不及。今天，大多数人对现实版 C-3PO 可能近在眼前同样毫无准备。是时候准备迎接他了。■",
+      "gloss": [18]
+    }
+  ],
+  "figures": [
+    { "n": 1, "caption_zh": "题图" }
+  ],
+  "glossary": [
+    {
+      "n": 1, "term": "grip", "phonetic": "/ɡrɪp/", "pos": "v.",
+      "sense": "紧紧攫住，摄住（心神）",
+      "note": "grip the imagination in a way chatbots cannot「以聊天机器人做不到的方式攫住想象力」；本义「紧握」"
+    },
+    {
+      "n": 2, "term": "stump", "phonetic": "/stʌmp/", "pos": "v.",
+      "sense": "把……难住，问倒",
+      "note": "a puzzle that had stumped mathematicians「难倒数学家的难题」；本义「树桩」，被绊住即「卡壳」",
+      "match": "stumped"
+    },
+    {
+      "n": 3, "term": "dexterity", "phonetic": "/dekˈsterəti/", "pos": "n.",
+      "sense": "灵巧，手的敏捷",
+      "note": "the flexibility and dexterity of the human body「人体的灵活与灵巧」；形容词 dexterous"
+    },
+    {
+      "n": 4, "term": "budding", "phonetic": "/ˈbʌdɪŋ/", "pos": "adj.",
+      "sense": "崭露头角的，初起步的",
+      "note": "budding bicentennial men「崭露头角的双百年机器人」；bud「发芽」；bicentennial man 化用电影《机器管家》",
+      "match": "budding"
+    },
+    {
+      "n": 5, "term": "crater", "phonetic": "/ˈkreɪtə/", "pos": "v.",
+      "sense": "（价格）暴跌，崩落（熟词僻义）",
+      "note": "hardware prices are cratering「硬件价格在崩跌」；本义「陨石坑」，价格一头栽进坑里"
+    },
+    {
+      "n": 6, "term": "chock-full", "phonetic": "/ˌtʃɒkˈfʊl/", "pos": "adj.",
+      "sense": "塞满的，满登登的",
+      "note": "chock-full of general-purpose robots「满篇都是通用机器人」；chock 本是固定用的楔块"
+    },
+    {
+      "n": 7, "term": "do the trick", "phonetic": "/trɪk/", "pos": "phr.",
+      "sense": "奏效，达到目的",
+      "note": "simply speaking to them does the trick「直接对它说话就能奏效」",
+      "match": "trick"
+    },
+    {
+      "n": 8, "term": "brawn", "phonetic": "/brɔːn/", "pos": "n.",
+      "sense": "膂力，体力",
+      "note": "A robotic body will bring the accompanying brawn「机器人躯体带来配套的膂力」；brains and brawn「脑力与体力」"
+    },
+    {
+      "n": 9, "term": "head-spinning", "phonetic": "/ˈhedˌspɪnɪŋ/", "pos": "adj.",
+      "sense": "令人目眩的，天旋地转的",
+      "note": "the implications will be head-spinning「影响将令人目眩」"
+    },
+    {
+      "n": 10, "term": "low-stakes", "phonetic": "/ˌləʊˈsteɪks/", "pos": "adj.",
+      "sense": "风险小的，输赢不大的",
+      "note": "low-stakes chores「不怎么高风险的杂务」；stakes 本义「赌注」"
+    },
+    {
+      "n": 11, "term": "drudgery", "phonetic": "/ˈdrʌdʒəri/", "pos": "n.",
+      "sense": "繁重乏味的苦活",
+      "note": "domestic drudgery「繁重的家务苦役」"
+    },
+    {
+      "n": 12, "term": "desk jockey", "phonetic": "/ˈdʒɒki/", "pos": "n.",
+      "sense": "伏案白领，坐办公室的人",
+      "note": "Desk jockeys hoping to retrain as builders「指望转行当建筑工的白领」；仿 disc jockey（DJ）构词",
+      "match": "jockeys"
+    },
+    {
+      "n": 13, "term": "blunt", "phonetic": "/blʌnt/", "pos": "adj.",
+      "sense": "生硬的，简单粗暴的",
+      "note": "blunt government interventions「简单粗暴的政府干预」；本义「钝的」，不拐弯抹角"
+    },
+    {
+      "n": 14, "term": "leery", "phonetic": "/ˈlɪəri/", "pos": "adj.",
+      "sense": "有戒心的，不信任的",
+      "note": "leery local officials「心存戒备的地方官员」；be leery of「对……提防」"
+    },
+    {
+      "n": 15, "term": "unwind", "phonetic": "/ʌnˈwaɪnd/", "pos": "v.",
+      "sense": "逆转，瓦解（熟词僻义）",
+      "note": "That could unwind「这一机制可能瓦解」；指长期形成的趋势、安排被逐步撤销，也指 unwind a position「平仓」"
+    },
+    {
+      "n": 16, "term": "NIMBYism", "phonetic": "/ˈnɪmbiɪzəm/", "pos": "n.",
+      "sense": "邻避主义，「别建在我家后院」",
+      "note": "policies and NIMBYism「政策与邻避主义」；Not In My Back Yard 的缩写，指居民抵制本地兴建不受欢迎设施"
+    },
+    {
+      "n": 17, "term": "impervious", "phonetic": "/ɪmˈpɜːviəs/", "pos": "adj.",
+      "sense": "不受影响的，刀枪不入的",
+      "note": "all but impervious to productivity growth「几乎不受生产率增长影响」；per-「穿过」+ vi-「路」，无路可入"
+    },
+    {
+      "n": 18, "term": "around the corner", "phonetic": "/ˈkɔːnə/", "pos": "id.",
+      "sense": "近在眼前，即将到来",
+      "note": "a real-life C-3PO could be around the corner「现实版 C-3PO 可能近在眼前」",
+      "match": "corner"
+    }
+  ]
+}

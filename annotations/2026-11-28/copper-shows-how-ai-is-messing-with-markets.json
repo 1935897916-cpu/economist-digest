@@ -1,0 +1,164 @@
+{
+  "issue": "2026-11-28",
+  "section": "Finance & economics",
+  "article_slug": "copper-shows-how-ai-is-messing-with-markets",
+  "article_title_zh": "铜价表明，AI 正在搅乱市场",
+  "paragraphs": [
+    {
+      "n": 1,
+      "zh": "身为一场技术革命的代理押注，陷阱有几多",
+      "gloss": []
+    },
+    {
+      "n": 2,
+      "zh": "过去两周股市过山车般起落，也请分一点心思给铜交易员。11 月 16 日，上海期货交易所——中国买卖双方交易金属等商品的市场——采取了一次非同寻常的干预：它施压交易商以现金而非实物交割铜期货合约，这也许是该所头一遭这么做。交易所官员断定，铜库存太低，应付不了对实物金属的抢购。",
+      "gloss": [1, 2, 3, 4]
+    },
+    {
+      "n": 3,
+      "zh": "在正常年景，短缺早该把价格推上天了。但 Anthropic——被视为人工智能繁荣风向标的模型公司——IPO 前的股市紧张情绪，让买家缩手缩脚。到 11 月 18 日，伦敦金属交易所（全球基准价的制定者）的铜期货已跌去近 6%；两天后，现货价格较一周前低了 10%。",
+      "gloss": [5, 6, 7]
+    },
+    {
+      "n": 4,
+      "zh": "欢迎来到全世界最令人费解的市场之一。铜的需求看来必将继续攀升：随着世界电气化、建设 AI 数据中心，所需的铜将不计其数。与此同时，优质矿石的供应却吃紧。极端天气更多、基础设施老旧失修、地质条件不佳，令许多矿山的产量不如往年。据研究公司标普全球（S&P Global）测算，到 2040 年需求将超出供应 1,000 万吨。然而几个月来，价格却横盘不动甚至走低。",
+      "gloss": [8]
+    },
+    {
+      "n": 5,
+      "zh": "部分原因是中国经济放缓——中国的用铜量大得惊人。特朗普的关税也有一份。去年总统威胁加征新关税后，许多美国买家囤起了铜库存。若靠着“压低日常物价”上台的民主党人在新一届国会两院拿下多数，让他难以兑现关税威胁，那些库存看起来就可能大得没有必要。",
+      "gloss": [9, 10, 11]
+    },
+    {
+      "n": 6,
+      "zh": "但铜市混乱的主因，是这种金属和许多其他资产一样，成了全情投入的 AI 交易的代理指标。且莫说全球铜需求只有约 1% 来自数据中心：据投行高盛，至少从 1 月起，铜价就随 AI 基础设施股起落。这让铜交易员头疼，也给其他市场敲了警钟。",
+      "gloss": [12]
+    },
+    {
+      "n": 7,
+      "zh": "今年相当长一段时间里，市场普遍相信 AI 是一股不可阻挡的力量，把这种“红色金属”的价格烧得火热。但近几周，投资者的信心动摇了。选民——尤其是美国的选民——已经开始反感这项糟蹋他们后院、还可能（仅仅是可能）终结人类的技术。Anthropic 股票上市后不温不火的表现，令人怀疑 AI 公司还能否继续为昂贵的新数据中心融资。",
+      "gloss": [13, 14]
+    },
+    {
+      "n": 8,
+      "zh": "随后 11 月 22 日，黄仁勋凯旋重返英伟达最高职位——英伟达的芯片和资产负债表，正在技术和资金两头为 AI 革命供能。消息传出的次日，英伟达市值增加了近 1 万亿美元，其他科技股也被带高（Anthropic 除外，其股价现略低于 IPO 价）。铜期货也涨了 3%。但那场让黄仁勋一度丢掉职位的桃色与间谍丑闻并没有过去；世界最终到底需要多少算力的疑问也没有过去。科技股再度暴跌，铜期货随之下跌。",
+      "gloss": [15]
+    },
+    {
+      "n": 9,
+      "zh": "问题就在这里。AI 引发的剧烈起落，正在打击新矿投资，而要避免几年后出现短缺，这些矿是必需的。矿石少了，冶炼厂的生意也就少了——冶炼厂受矿商委托、收取加工费，把矿石变成金属。已经有一些冶炼厂反过来付钱请矿商继续供矿，而不是向矿商收费，只为避免关炉再开炉的沉重代价。若这把一些冶炼厂挤出局，供应紧张可能进一步恶化。",
+      "gloss": [16, 17]
+    },
+    {
+      "n": 10,
+      "zh": "铜的故事表明，AI 交易这种一阵一阵的痉挛，能搅乱那些习惯于平缓变化节奏的市场。与身手敏捷的科技公司不同，AI 的各类工业代理——从金属和矿业公司到电网运营商——的生命周期往往以数十年计。投资决策需要信心：相信这么多年过去，需求终将兑现成真。AI 自己或许有朝一日能让这类预测更准。就眼下而言，它对价格信号的扭曲，正让预测变得更难做出。■",
+      "gloss": [18, 19, 20]
+    }
+  ],
+  "figures": [
+    { "n": 1, "caption_zh": "题图" }
+  ],
+  "glossary": [
+    {
+      "n": 1, "term": "rollercoaster", "phonetic": "/ˈrəʊləkəʊstə/", "pos": "n.",
+      "sense": "过山车；（行情）大起大落",
+      "note": "the rollercoaster ride in equity markets「股市过山车般的行情」；财经报道高频比喻"
+    },
+    {
+      "n": 2, "term": "spare a thought for", "phonetic": "/speə/", "pos": "id.",
+      "sense": "请想一想（处境不易的）某人，分点心思给……",
+      "note": "spare a thought for copper traders「也请分点心思给铜交易员」；spare 本义「匀出」"
+    },
+    {
+      "n": 3, "term": "lean on", "phonetic": "/liːn/", "pos": "phr.",
+      "sense": "施压，向……施加影响",
+      "note": "It leant on traders「它对交易商施压」；leant 是 lean 的过去式（不规则变化）；lean on sb 带非正式的强硬味",
+      "match": "leant"
+    },
+    {
+      "n": 4, "term": "settle", "phonetic": "/ˈsetl/", "pos": "v.",
+      "sense": "结算，交割（熟词僻义）",
+      "note": "settle futures contracts in cash「以现金交割期货合约」；settle in cash/metal 现金交割或实物交割；本义「安定下来」"
+    },
+    {
+      "n": 5, "term": "jitters", "phonetic": "/ˈdʒɪtəz/", "pos": "n.",
+      "sense": "紧张不安，慌乱（常用复数）",
+      "note": "stock-market jitters「股市的紧张情绪」；the jitters 一阵心慌"
+    },
+    {
+      "n": 6, "term": "bellwether", "phonetic": "/ˈbelweðə/", "pos": "n.",
+      "sense": "风向标，领头者",
+      "note": "a model-creator seen as a bellwether of the AI boom「被视为 AI 繁荣风向标的模型公司」；典出系铃铛的头羊，羊群跟着它走"
+    },
+    {
+      "n": 7, "term": "spot", "phonetic": "/spɒt/", "pos": "adj.",
+      "sense": "现货的（熟词僻义）",
+      "note": "spot prices「现货价格」；与 futures「期货」相对：spot 即时交货，future 约定将来交货；本义「地点、斑点」"
+    },
+    {
+      "n": 8, "term": "poised", "phonetic": "/pɔɪzd/", "pos": "adj.",
+      "sense": "蓄势待发，眼看就要",
+      "note": "looks poised to keep rising「看来必将继续攀升」；be poised to do sth 固定搭配；本义「平衡待发的」"
+    },
+    {
+      "n": 9, "term": "prodigious", "phonetic": "/prəˈdɪdʒəs/", "pos": "adj.",
+      "sense": "惊人的，巨量的",
+      "note": "uses the stuff in prodigious amounts「用铜量大得惊人」；书面语"
+    },
+    {
+      "n": 10, "term": "amass", "phonetic": "/əˈmæs/", "pos": "v.",
+      "sense": "大量囤积，积攒",
+      "note": "amassed stockpiles of copper「囤起铜库存」；a-「去」+ mass「聚成堆」"
+    },
+    {
+      "n": 11, "term": "follow through", "phonetic": "/ˈfɒləʊ/", "pos": "phr.",
+      "sense": "兑现到底，说到做到",
+      "note": "make it harder for him to follow through「让他难以兑现（关税威胁）」；源自体育动作「挥杆后的随挥」"
+    },
+    {
+      "n": 12, "term": "proxy", "phonetic": "/ˈprɒksi/", "pos": "n.",
+      "sense": "代理指标，替身（价格随另一件事起落的资产）",
+      "note": "become a proxy for the AI trade「成了 AI 交易的代理指标」；本义「委托代表、代理权」；AI proxy trade 是当下市场热词"
+    },
+    {
+      "n": 13, "term": "despoil", "phonetic": "/dɪˈspɔɪl/", "pos": "v.",
+      "sense": "糟蹋，破坏（自然、环境）",
+      "note": "a technology that despoils their backyards「糟蹋他们后院的技术」；backyards 此处指居民家门口的环境，NIMBY 式说法"
+    },
+    {
+      "n": 14, "term": "ho-hum", "phonetic": "/ˌhəʊˈhʌm/", "pos": "adj.",
+      "sense": "不温不火的，乏善可陈的",
+      "note": "the ho-hum post-IPO performance「上市后不温不火的表现」；拟声词，打哈欠的声音"
+    },
+    {
+      "n": 15, "term": "slump", "phonetic": "/slʌmp/", "pos": "v.",
+      "sense": "暴跌，骤降",
+      "note": "Tech stocks slumped again「科技股再度暴跌」；名词也常用：a market slump"
+    },
+    {
+      "n": 16, "term": "smelter", "phonetic": "/ˈsmeltə/", "pos": "n.",
+      "sense": "冶炼厂",
+      "note": "smelters, which transform it into metal「把矿石变成金属的冶炼厂」；smelt「熔炼」；铜产业链：miner→smelter→fabricator"
+    },
+    {
+      "n": 17, "term": "crunch", "phonetic": "/krʌntʃ/", "pos": "n.",
+      "sense": "紧缺，短缺危机（熟词僻义）",
+      "note": "the supply crunch「供应紧张」；credit crunch「信贷紧缩」是财经名梗；本义「嘎吱咬碎」"
+    },
+    {
+      "n": 18, "term": "spasmodic", "phonetic": "/spæzˈmɒdɪk/", "pos": "adj.",
+      "sense": "一阵一阵的，间歇突发的",
+      "note": "the spasmodic AI trade「一阵一阵痉挛的 AI 交易」；spasm「痉挛」，形容行情毫无规律地抽动"
+    },
+    {
+      "n": 19, "term": "sedate", "phonetic": "/sɪˈdeɪt/", "pos": "adj.",
+      "sense": "平缓的，波澜不惊的（熟词僻义）",
+      "note": "a more sedate pace of change「更平缓的变化节奏」；本义「镇静的」，形容行情安静"
+    },
+    {
+      "n": 20, "term": "materialise", "phonetic": "/məˈtɪəriəlaɪz/", "pos": "v.",
+      "sense": "兑现成真，最终落地",
+      "note": "confidence that demand will materialise「相信需求终将兑现」；materialize 的英式拼法；无形之物变成现实"
+    }
+  ]
+}
